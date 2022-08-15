@@ -2,7 +2,7 @@
 
 ## Exploit Syntax: 
 
-1. Run the following commands
+1. In Parrot terminal run the following commands
     ```sh
     mkdir /home/<user>/Desktop/Lincoler
     cd /home/<user>/Desktop/Lincoler

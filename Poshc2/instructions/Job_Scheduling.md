@@ -2,12 +2,12 @@
 
 ## Exploit Syntax
 
-* Method 1 | `sharpps` [ UNTESTED ]
+### Method 1 | `sharpps` [ UNTESTED ]
 
 ```powershell 
 sharpps SCHTASKS /CREATE /SC DAILY /TN "MyTasks\Notepad task" /TR "Path to the executable you want to run" /ST 11:00
 ```
-* Method 2 | `pslo`
+### Method 2 | `pslo`
 
 1. Create a txt file named `schdTask.ps1`
 
@@ -22,6 +22,8 @@ Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Engine Loade
 ```
 3. Run 'pslo \<schdTask.ps1 file path>' 
 
+---
+
 ## Detection Method
 
 * Investigate file creations in the default windows task folder - C:\Windows\System32\Tasks folder.
@@ -29,4 +31,6 @@ Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Engine Loade
     * Event.action: process create 
     * Event.code: 4698 or 4699
  
+---
+
 ## Resources

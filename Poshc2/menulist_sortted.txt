@@ -1,0 +1,45 @@
+Account Manipulation
+BITS Jobs  
+Browser Bookmark Discovery
+Create Account
+Credential Dumping
+Data Staged
+Data from Local System
+Domain Trust Discovery
+Drive-by Compromise
+Dynamic Data Exchange 
+Exfiltration Over Command and Control Channel
+File and Directory Discovery
+Hidden Files and Directories
+Image File Execution Options Injection
+Input Capture
+Job Scheduling Win
+Network Service Scanning
+OS Credential Dumping
+Password Policy Discovery
+Peripheral Device discovery 
+Permission Groups Discovery
+Process Discovery
+Process Discovery
+Process Injection
+Rundll32
+Spearphishing attachment
+System Information Discovery
+System Informatoin Discovery Win
+System Shutdown/Reboot
+System Time Discovery
+Windows Management Instrumentation
+Windows Managment Instrumentation                      
+login item 
+logon script 
+mshta.exe
+new service / service execution 
+options injection
+path interception 
+powershell
+query registry 
+redundant access 
+regsvr32
+scripting
+spearphishing link 
+valid accounts

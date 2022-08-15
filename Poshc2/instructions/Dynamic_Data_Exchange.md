@@ -23,7 +23,7 @@
 
 4. Navigate to the tool bar the at top and select the insert tab
 
-   <img src="./Resources/gifs/Insert_Tab.gif" alt="Insert_Tab.gif" width="800">
+   <img src="/Resources/gifs/Insert_Tab.gif" alt="Insert_Tab.gif" width="800">
 
 5. Under Quick Parts dropdown select Field then press ok.
 
@@ -38,7 +38,17 @@
    <img src="/Resources/gifs/Step3_Adding_DDEAuto-720p.gif" alt="addingobject" width="800">
 
 7. Save the document.
-
+---
 ## Detection Method
 
+1. Investigate embedded code within `Microsoft Office` applications
+Searching for `winword.exe` with the `/dde` flag in the command line should indicate a DDE execution. 
+
+2. The `winword.exe` event PID should be the PPID of another process, demonstrating that this DDE flag launched another process (in our case, it launches powershell)
+
+
+---
 ## Resources    
+https://www.securitysift.com/abusing-microsoft-office-dde/
+https://1337red.wordpress.com/using-the-dde-attack-with-powershell-empire/
+https://blog.2code-monte.co.uk/2021/03/17/creating-a-cyber-attack-part-9-making-a-malicious-word-document-using-dde-and-powershell/

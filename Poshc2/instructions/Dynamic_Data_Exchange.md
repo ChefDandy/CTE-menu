@@ -27,7 +27,7 @@
 
 5. Under Quick Parts dropdown select Field then press ok.
 
-   <img src="/Resources/gifs/Step2_Adding_Object-720p.gif" alt="dog" width="50" height="60" title="dog">
+   <img src="/Resources/gifs/Step2_Adding_Object-720p.gif" alt="dog" width="800" height="60" title="dog">
 
 
 6. Right Click toggle field codes and paste the contents below within the `{}` :
@@ -50,6 +50,6 @@ Searching for `winword.exe` with the `/dde` flag in the command line should indi
 
 ---
 ## Resources    
-https://www.securitysift.com/abusing-microsoft-office-dde/
-https://1337red.wordpress.com/using-the-dde-attack-with-powershell-empire/
-https://blog.2code-monte.co.uk/2021/03/17/creating-a-cyber-attack-part-9-making-a-malicious-word-document-using-dde-and-powershell/
+* https://www.securitysift.com/abusing-microsoft-office-dde/
+* https://1337red.wordpress.com/using-the-dde-attack-with-powershell-empire/
+* https://blog.2code-monte.co.uk/2021/03/17/creating-a-cyber-attack-part-9-making-a-malicious-word-document-using-dde-and-powershell/

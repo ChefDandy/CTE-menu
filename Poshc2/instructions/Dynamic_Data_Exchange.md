@@ -23,11 +23,12 @@
 
 4. Navigate to the tool bar the at top and select the insert tab
 
-   <img src="/Resources/gifs/Insert_Tab.gif" alt="Insert_Tab.gif" width="800">
+   ![pic](../../Resources/gifs/Insert_Tab.gif)
 
 5. Under Quick Parts dropdown select Field then press ok.
 
-   <img src="/Resources/gifs/Step2_Adding_Object-720p.gif" alt="addingobject" width="500">
+   <img src="/Resources/gifs/Step2_Adding_Object-720p.gif" alt="dog" width="50" height="60" title="dog">
+
 
 6. Right Click toggle field codes and paste the contents below within the `{}` :
     ```powershell 

@@ -16,7 +16,7 @@
 | Data from Local System                                         | NOPE      | DOG                            |
 | Domain Trust Discovery                                         | NOPE      | DOG                            |
 | Drive-by Compromise                                            | NOPE      | DOG                            |
-| [Dynamic Data Exchange](instructions/Account_Detections.md)    | KINDA     | detection methods Screenshots  |
+| [Dynamic Data Exchange](Poshc2/instructions/Dynamic_Data_Exchange.md)    | KINDA     | detection methods Screenshots  |
 | Exfiltration Over Command and Control Channel                  | NOPE      | DOG                            |
 | File and Directory Discovery                                   | NOPE      | DOG                            |
 | Hidden Files and Directories                                   | NOPE      | DOG                            |
@@ -27,7 +27,7 @@
 | Logon script                                                   | NOPE      | DOG                            |
 | [Mshta.exe](instructions/MSHTA.MD)                             | NOPE      | Initial import/ needs posh syntax                            |
 | Network Service Scanning                                       | NOPE      | DOG                            |
-| New service / service execution                                | NOPE      | DOG                            |
+| New service / service execution                                | NOPE      | Initial import                            |
 | [OS Credential Dumping](instructions/OS_Credential_Dumping.md) | NOPE      | DOG                            |
 | Options injection                                              | NOPE      | DOG                            |
 | Password Policy Discovery                                      | NOPE      | DOG                            |

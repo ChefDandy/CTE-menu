@@ -4,29 +4,50 @@
 
 ## Poshc2 Capabilities:
 
-| Title                                         | Completed | Requires                      |
-|-----------------------------------------------|-----------|-------------------------------|
-| Account Manipulation                          | NO        | Title                         |
-| BITS Jobs                                     | NO        | detection methods             |
-| Browser Bookmark Discovery                    | NO        | Title                         |
-| Dynamic Data Exchange                         | NO        | detection methods Screenshots |
-| Process Discovery                             | NO        | detection methods             |
-| Job Scheduling Win                            | YES       | Title                         |
-| mshta.exe                                     | NO        | Title                         |
-| OS Credential Dumping                         | NO        | Title                         |
-| System Informatoin Discovery Win              | NO        | Title                         |
-| Windows Managment Instrumentation             | NO        | Title                         |
-| Create Account                                | Text      | Title                         |
-| Credential Dumping                            | Text      | Title                         |
-| Data Staged                                   | Text      | Title                         |
-| Data from Local System                        | Text      | Title                         |
-| Domain Trust Discovery                        | Text      | Title                         |
-| Drive-by Compromise                           | Text      | Title                         |
-| Exfiltration Over Command and Control Channel | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
-| Paragraph                                     | Text      | Title                         |
+| Menu Item                                                      | Completed | Notes                          |
+|----------------------------------------------------------------|-----------|--------------------------------|
+| [Account Discovery](instructions/Account_Discovery.md)        | NOPE      | Detections                     |
+| Account Manipulation                                           | NOPE      | DOG                            |
+| [BITS Jobs](instructions/BITS_Jobs.md)                         | NOPE      | detection methods              |
+| Browser Bookmark Discovery                                     | NOPE      | DOG                            |
+| Create Account                                                 | NOPE      | DOG                            |
+| Credential Dumping                                             | NOPE      | DOG                            |
+| Data Staged                                                    | NOPE      | DOG                            |
+| Data from Local System                                         | NOPE      | DOG                            |
+| Domain Trust Discovery                                         | NOPE      | DOG                            |
+| Drive-by Compromise                                            | NOPE      | DOG                            |
+| [Dynamic Data Exchange](instructions/Account_Detections.md)    | KINDA     | detection methods Screenshots  |
+| Exfiltration Over Command and Control Channel                  | NOPE      | DOG                            |
+| File and Directory Discovery                                   | NOPE      | DOG                            |
+| Hidden Files and Directories                                   | NOPE      | DOG                            |
+| Image File Execution Options Injection                         | NOPE      | DOG                            |
+| Input Capture                                                  | NOPE      | DOG                            |
+| [Job Scheduling](instructions/Job_Scheduling.md)               | YES       | DOG                            |
+| Login item                                                     | NOPE      | DOG                            |
+| Logon script                                                   | NOPE      | DOG                            |
+| [Mshta.exe](instructions/MSHTA.MD)                             | NOPE      | Initial import/ needs posh syntax                            |
+| Network Service Scanning                                       | NOPE      | DOG                            |
+| New service / service execution                                | NOPE      | DOG                            |
+| [OS Credential Dumping](instructions/OS_Credential_Dumping.md) | NOPE      | DOG                            |
+| Options injection                                              | NOPE      | DOG                            |
+| Password Policy Discovery                                      | NOPE      | DOG                            |
+| Path interception                                              | NOPE      | DOG                            |
+| Peripheral Device discovery                                    | NOPE      | DOG                            |
+| Permission Groups Discovery                                    | NOPE      | DOG                            |
+| [Powershell](instructions/PowerShell.md)                       | NOPE      | DOG                            |
+| Process Discovery                                              | NOPE      | Need Detection Method          |
+| Process Injection                                              | NOPE      | DOG                            |
+| Query registry                                                 | NOPE      | DOG                            |
+| Redundant access                                               | NOPE      | DOG                            |
+| Regsvr32                                                       | NOPE      | DOG                            |
+| Rundll32                                                       | NOPE      | DOG                            |
+| Scripting                                                      | NOPE      | DOG                            |
+| Spearphishing attachment                                       | NOPE      | Initial import/needs mime type |
+| Spearphishing link                                             | NOPE      | Initial import/ needs verification                            |
+| System Informatoin Discovery Win                               | NOPE      | DOG                            |
+| System Shutdown/Reboot                                         | NOPE      | DOG                            |
+| System Time Discovery                                          | NOPE      | DOG                            |
+| Valid accounts                               
+| Windows Management Instrumentation                             | NOPE      | DOG                            |
+| Paragraph                                                      | NOPE      | DOG                            |
+

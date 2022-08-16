@@ -16,7 +16,7 @@
 | Data from Local System                                         | NOPE      | DOG                            |
 | Domain Trust Discovery                                         | NOPE      | DOG                            |
 | Drive-by Compromise                                            | NOPE      | DOG                            |
-| [Dynamic Data Exchange](Poshc2/instructions/Dynamic_Data_Exchange.md)    | KINDA     | detection methods Screenshots  |
+| [Dynamic Data Exchange](instructions/Dynamic_Data_Exchange.md)    | KINDA     | detection methods Screenshots  |
 | Exfiltration Over Command and Control Channel                  | NOPE      | DOG                            |
 | File and Directory Discovery                                   | NOPE      | DOG                            |
 | Hidden Files and Directories                                   | NOPE      | DOG                            |

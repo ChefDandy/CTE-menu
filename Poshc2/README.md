@@ -7,6 +7,10 @@
 - [Poshc2 github Link](https://github.com/nettitude/PoshC2)  
 - [Poshc2 Help](poshC2_help_v8.md)
 
+## Poshc2 PSLO Scripts
+
+[PSLO Scripts](Poshc2/pslo_scripts/README.md)
+
 ## Poshc2 Capabilities:
 
 | Menu Item                                                                       | Completed | Notes                                    |

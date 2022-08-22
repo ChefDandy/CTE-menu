@@ -4,6 +4,14 @@
 
 1. Poshc2 - Any powershell command given, however poshc2 powershell may not be detectable. 
 
+```powershell 
+get-computerinfo
+```
+
+```powershell 
+sharpps get-item 
+```
+
 ## Detection Technique 
 
 1. Investigate powershell running at a user level.

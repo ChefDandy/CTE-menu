@@ -35,3 +35,4 @@ and the payload will execute. No login is required. Should give you System privi
 	* osk.exe
 	* Narrator.exe
 	* Magnify.exe
+

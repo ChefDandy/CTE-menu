@@ -10,3 +10,6 @@ Adversaries may inject code into processes in order to evade process-based defen
 1. Sysmon event code 8 is the creation of a remote process thread
 2. Sysmon event code 10 is process access
 3. Investigate restarting processes.
+
+## Resources
+[Process Injection Theory](https://secarma.com/process-injection-part-1-the-theory/)

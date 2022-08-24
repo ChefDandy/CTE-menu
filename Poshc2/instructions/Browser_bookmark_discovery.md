@@ -6,6 +6,25 @@
 3. Based on the OS and browsers, execute the proper syntax below:
 All untested
 
+## Windows
+* Chrome/Opera
+    ```powershell
+    invoke-command Get-ChildItem -Path C:\Users\ -Filter Bookmarks -Recurse -ErrorAction SilentlyContinue -Force
+    ```
+* Chrome/Edge
+    ```powershell
+     invoke-command where /R C:\Users\ Bookmarks
+    ```
+* Mozilla
+    ```powershell
+     invoke-command where /R C:\Users\ places.sqlite
+    ```
+* Internet explorer
+    ```powershell
+     invoke-command dir /s /b %USERPROFILE%\Favorites
+    ```
+
+
 ## Linux:
 * Mozilla:
     ```powershell
@@ -24,24 +43,6 @@ All untested
 * Safari
     ```powershell 
     invoke-command find / -path "*/Safari/Bookmarks.plist" 2>/dev/null >> {output_file} cat #{output_file}
-    ```
-
-## Windows
-* Chrome/Opera
-    ```powershell
-    invoke-command Get-ChildItem -Path C:\Users\ -Filter Bookmarks -Recurse -ErrorAction SilentlyContinue -Force
-    ```
-* Chrome/Edge
-    ```powershell
-     invoke-command where /R C:\Users\ Bookmarks
-    ```
-* Mozilla
-    ```powershell
-     invoke-command where /R C:\Users\ places.sqlite
-    ```
-* Internet explorer
-    ```powershell
-     invoke-command dir /s /b %USERPROFILE%\Favorites
     ```
 
 ---

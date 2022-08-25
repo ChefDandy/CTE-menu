@@ -7,7 +7,7 @@
 3. Based on the OS, execute the proper syntax below:
 
 * Powershell (if installed on local system)
-    * invoke-command New-LocalUser -Name "Jimmybob" -Password N33sdut5 -Totally legitimate user." 
+    * invoke-command New-LocalUser -Name "Jimmybob" -Password N33sdut5 -Description "Totally legitimate user." 
     
 
 * Windows

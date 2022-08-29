@@ -1,7 +1,10 @@
 # [Query registry](https://attack.mitre.org/techniques/T1012/)
 
 ## Exploit syntax:
-* reg query
+ In Posh, run
+```sh
+* Sharpps REG QUERY <PATH OF KEY TO QUERY>
+```
 
 ## Detection Technique:
 * Observe Situational Awareness commands such as  reg.exe

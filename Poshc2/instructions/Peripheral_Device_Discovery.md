@@ -8,7 +8,14 @@
 
 ## Exploit syntax: 
 
-* <poshc2 syntax>
+In Posh, run 
+```sh
+sharpps get-pnpdevice ## Shows all plug and play devices
+```
+Or in Posh, run
+```sh
+sharpps get-pnpDevice -PresentOnly ## Show only present connections
+```
 
 ## Detection Techniques:
 

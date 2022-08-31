@@ -4,8 +4,12 @@
 Attempt to access detailed information about the password policy.
 
 ## Exploit syntax:
-```powershell
-sharpps net accounts 
+In PoshC2, run
+
+```sh
+sharpps net accounts ##password policy for the Local Computer 
+
+sharpps net accounts /domain ##password policy for the Domain
 ```
 
 ## Detection Technique:

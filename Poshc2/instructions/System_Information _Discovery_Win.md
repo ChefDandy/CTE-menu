@@ -1,10 +1,12 @@
 # [System Information Discovery](https://attack.mitre.org/techniques/T1082/)
 
 ## Exploit Syntax
+In Poshc2, run
+```sh
+get-computerinfo ##Returns Computer info :)
 
-```powershell 
-get-computerinfo
-``
+sharpps syteminfo ##Alternative Info to the command above(more digestable)
+```
 
 ### Detection Method
 

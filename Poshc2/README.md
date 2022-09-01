@@ -60,7 +60,7 @@
 | [Redundant access](instructions/Reduntant_access.md)                            | NOPE      | Initial import/needs verification                                      |
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)| NOPE      | Initial import/posh syntax                                      |
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                    | NOPE      | Initial import/poshc2 syntax                                      |
-| [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)              | NOPE      | Initial import                                      |
+| [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)              | NOPE      | Needs further instructions                                      |
 | [Rundll32](instructions/Rundll32.md)                                            | NOPE      | Initial import/posh syntax                                      |
 | [Scripting](instructions/Scripting.md)                                          | NOPE      | Initial import/posh syntax                                      |
 | [Services Registry Permissions Weakness](Poshc2/instructions/Service_registry_permissions_weakness.md)| NOPE      | Initial import                                      |

@@ -8,7 +8,7 @@ REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run /v 
 
 
 ## Exploit syntax:
-* Install-Persistence
+* Install-Persistence <- No
 
 ## Detection Technique:
 * Investigating Run and Startup registry keys.

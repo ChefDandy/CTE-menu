@@ -1,7 +1,12 @@
 # [Network Share Discovery](https://attack.mitre.org/techniques/T1135/)
 
 ## Exploit syntax:
-* Look for folders and drives shared on remote systems.
+
+```powershell
+
+sharpps net share
+
+````
 
 ## Detection Technique:
 * Kibana queries to detect Network Share Discovery 

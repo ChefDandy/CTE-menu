@@ -6,17 +6,11 @@
     ```powershell 
     add-hosted-file
     ```
-2. set file parameters 
-    ```powershell 
-    something
-    ```
-3. have victim browse to malicious link created.
+2. Set file parameters 
+  
 
-4. fuck you shelley 
-    ```powershell 
-    invoke-fuckyouAtFuckyou shelleydoesntknowanything.ps1 -outfile somedumbshitShelleysaid.txt 
-    ```
----
+3. Have victim browse to malicious link created.
+
 
 ## Detection Technique:
 * Investigate connections with unusually large urls and to known bad ip

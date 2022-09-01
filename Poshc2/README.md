@@ -30,15 +30,15 @@
 | [Domain Trust Discovery](/Poshc2/instructions/Domain_Trust_Discovery.md)        | NOPE      | Detection methods/Review                                      |
 | [Drive-by Compromise](/Poshc2/instructions/Drive-by_compromise.md)              | NOPE      | Initial import/posh syntax                                      |
 | [Dynamic Data Exchange](instructions/Dynamic_Data_Exchange.md)                  | KINDA     | detection methods Screenshots            |
-| [Exfiltration Over Command and Control Channel](instructions/Exfiltration_over_command_and_control_channel.md)| NOPE      | Initial import                                      |
+| [Exfiltration Over Command and Control Channel](instructions/Exfiltration_over_command_and_control_channel.md)| NOPE      | Detection methods/Needs more detail                                      |
 | [Exploitation for Privilege Escalation](instructions/Exploitation_for_privilege_escalation.md) | NOPE      | Initial import/posh syntax                                      |
 | [File and Directory Discovery](instructions/File_And_Directory_Permissions_Modification.md)    | NOPE      | Initial import                                      |
-| [File Deletion](instructions/File_deletion.md)                                  | NOPE      | Initial import                                      |
-| [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)    | NOPE      | Initial import                           |
+| [File Deletion](instructions/File_deletion.md)                                  | NOPE      | Detection Method/review                                      |
+| [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)    | NOPE      | Detection method/Detect hidden files                          |
 | [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)| NOPE      | Detection method/Review
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                          | NOPE      | Detection methods/Review
 | [Job Scheduling](instructions/Job_Scheduling.md)                                | YES       |                                       |
-| [Login item](instructions/Login_item.md)                                        | NOPE      | Initial import                           |
+| [Login item](instructions/Login_item.md)                                        | NOPE      | Detection method/review                           |
 | [Logon script](instructions/Logon_Scripts.md)                                   | NOPE      | Initial import/posh syntax         |
 | [Modify registry](instructions/Modify_registry.md)                              | NOPE      | Detection methods/review syntax                                      |
 | [Mshta.exe](instructions/MSHTA.MD)                                              | NOPE      | Some syntax added, needs more work        |

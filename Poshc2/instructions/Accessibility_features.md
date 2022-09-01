@@ -25,7 +25,7 @@
 7. From the login lockscreen of the windows box, press the windows key and 'U'
 and the payload will execute. No login is required. Should give you System privileges. 
 
-> **NOTE:** This will not give you an administrator prompt
+
 
 ---
 

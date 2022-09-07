@@ -26,13 +26,16 @@ Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Engine Loade
 
 ## Detection Method
 
-* Investigate file creations in the default windows task folder - C:\Windows\System32\Tasks folder.
+* Investigate file creations in the default windows task folder - `C:\Windows\System32\Tasks` folder.
     * Event.code: 1 
     * Event.action: process create 
     * Event.code: 4698 or 4699
     * Event.code: 11 file create
         * Files created within the above folder
     * process.executable: schtasks.exe
+
+*  filter for `C:\Windows\System32\Tasks` and `Event.code: 11 file create`
+   *  Will show any new schedule tasks added to the defualt scheduled task folder in windows
 ---
 
 ## Resources

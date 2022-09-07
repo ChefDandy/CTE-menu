@@ -18,7 +18,7 @@
 |---------------------------------------------------------------------------------|-----------|------------------------------------------|
 | [Accessibility Features](instructions/Accessibility_features.md)                | KINDA      | Detection method/Reviewed                                      |
 | [Account Discovery](instructions/Account_Discovery.md)                          | KINDA      | Detection method/Reviewed                               |
-| [Account Manipulation](instructions/Account_manipulation.md)                    | KINDA      | Detection method/AD Account / reviewed                                     |
+| [Account Manipulation](instructions/Account_manipulation.md)                    | KINDA      | Updated detection method/AD Account / reviewed                                     |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)  | NOPE      | Detection method/Review                                      |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                          | NOPE      | detection methods                        |
 | [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)        | NOPE      | syntax complete for window(ie and chrome)                                      |

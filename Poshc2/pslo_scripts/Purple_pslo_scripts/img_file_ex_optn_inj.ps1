@@ -1,0 +1,2 @@
+New-item -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" -Name "Name of key"
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Name of key" -name "Debugger" -Value "C:\windows\temp\nope.exe"

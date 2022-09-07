@@ -7,11 +7,20 @@ Adversaries may delete files left behind by the actions of their intrusion activ
 In PoshC2, run
 ```sh
 posh-delete <file path on Victim> #built in posh command
+```
 
+```
 sharpps remove-item <File path on Victim> #Powershell cmdlet
 ```
+
+
 ## Detection Technique:
-* Look for the ‘del’ command from cmd
+* Look for the `del` command from cmd
 * Look for a secondary process that will do the deletion
-* Powershell’s “Remove-Item” does not show up in logs. 
-* Investigate Event ID 4660
+* Powershell’s “Remove-Item" does not show up in logs. 
+* Investigate `Event ID 4660`
+
+
+### posh-delete detection methods
+* when deleting file using poshc2 built in command you get a `event.code:2` when expecting a `filedelete`
+  * File creation time changed (rule: FileCreateTime) event.code 2

@@ -28,7 +28,7 @@ searchhelp sharpview
 
 ## Detection Methods
 
-* you don't? 
+*  
 
 ---
 

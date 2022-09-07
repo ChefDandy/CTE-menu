@@ -2,7 +2,7 @@
 
 ## Exploit Syntax
 
-### Method 1 | `sharpps` [ UNTESTED ]
+### Method 1 | `sharpps` 
 
 ```powershell 
 sharpps SCHTASKS /CREATE /SC DAILY /TN "MyTasks\Notepad task" /TR "Path to the executable you want to run" /ST 11:00
@@ -30,7 +30,9 @@ Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Engine Loade
     * Event.code: 1 
     * Event.action: process create 
     * Event.code: 4698 or 4699
- 
+    * Event.code: 11 file create
+        * Files created within the above folder
+    * process.executable: schtasks.exe
 ---
 
 ## Resources

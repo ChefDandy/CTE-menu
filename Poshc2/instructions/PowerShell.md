@@ -5,7 +5,7 @@
 1. Poshc2 - Any powershell command given, however poshc2 powershell may not be detectable. 
 
 ```powershell 
-get-computerinfo
+sharpps get-computerinfo
 ```
 
 ```powershell 

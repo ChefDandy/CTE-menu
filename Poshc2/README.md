@@ -13,6 +13,7 @@
 [PSLO Scripts](Poshc2/pslo_scripts/README.md)
 
 ## Poshc2 Capabilities:
+> **NOTE:** all `Menu Items` have links in the title to their MITRE pages  
 
 | Menu Item                                                                       | Completed | Notes                                    |
 |---------------------------------------------------------------------------------|-----------|------------------------------------------|

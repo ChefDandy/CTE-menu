@@ -11,5 +11,6 @@ mimikatz Command "privilege::debug sekurlsa::logonPasswords"
 
 ## Detection Technique:
 * Look for any reference to mimikatz
+    * Sysmon code 13 may be seen to change the registry for sysinternals "EulaAccepted" 
 * Look for sysmon event code 10 that is interacting with lsass.exe
 * Look for sysmon event code 8 that is interacting with lsass.exe

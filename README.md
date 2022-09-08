@@ -22,3 +22,12 @@
 | place holder    | WIP         |
 
 
+## Tools Checklists 
+
+| Hunt Check List                                                                   | Description |
+|-----------------------------------------------------------------------------------|-------------|
+| [SwiftOnSecurity sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) | WIP         |
+| Ubuntu                                                                            | WIP         |
+| place holder                                                                      | WIP         |
+
+https://github.com/SwiftOnSecurity/sysmon-config

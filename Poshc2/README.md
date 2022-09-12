@@ -31,9 +31,10 @@
 | [Domain Trust Discovery](/Poshc2/instructions/Domain_Trust_Discovery.md)        | NOPE      | Detection methods/Review                                      |
 | [Drive-by Compromise](/Poshc2/instructions/Drive-by_compromise.md)              | NOPE      | Initial import/posh syntax                                      |
 | [Dynamic Data Exchange](instructions/Dynamic_Data_Exchange.md)                  | KINDA     | detection methods Screenshots            |
-| [Exfiltration Over Command and Control Channel](instructions/Exfiltration_over_command_and_control_channel.md)| NOPE      | Detection methods/Needs more detail                                      |
+| [Exfiltration Over Command and Control Channel](instructions/Exfiltration_over_command_and_control_channel.md)| KINDA      | Updated detection methods and syntax/Needs more detail                                      |
 | [Exploitation for Privilege Escalation](instructions/Exploitation_for_privilege_escalation.md) | NOPE      | Initial import/posh syntax                                      |
-| [File and Directory Discovery](instructions/File_And_Directory_Permissions_Modification.md)    | NOPE      | Initial import                                      |
+| [File and Directory Discovery](instructions/FIle_and_directory_discovery.md)    | KINDA      | Added detection methods/ Review                                      |
+| [File and Directory Permissions modification](instructions/File_And_Directory_Permissions_Modification.md)    | KINDA      | Added detection methods/ Review                                      |
 | [File Deletion](instructions/File_deletion.md)                                  | NOPE      | Detection Method/review                                      |
 | [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)    | NOPE      | Detection method/Detect hidden files                          |
 | [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)| NOPE      | Detection method/Review

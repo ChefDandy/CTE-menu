@@ -15,4 +15,4 @@ Sharpps net localgroup ##View Local groups on Computer
 
 ```
 ## Detection Technique:
-* 
+* Monitor executed commands and argumaents acquired through Window System management tools

@@ -8,7 +8,19 @@ REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run /v 
 
 
 ## Exploit syntax:
-* Install-Persistence <- No
+* Reference [Modify registry](/Poshc2/instructions/Modify_registry.md) for syntax. 
+
+* Example of altering the "FailureCommand" key so that the ervice is executed in an elevated context anytime the service fails or is intentionally corrupted
+
+```powershell
+
+
+
+```
 
 ## Detection Technique:
 * Investigating Run and Startup registry keys.
+
+
+## Resources
+* https://pentestlab.blog/tag/failurecommand/

@@ -9,9 +9,10 @@ sharpps net share
 
 ## Detection Technique:
 * Kibana queries to detect Network Share Discovery 
-	* `net.exe share` 
+	* `net.exe` 
 	* process.name: `net.exe`
 	* process.command.line: `C:\Windows\system32\net1 share ADMIN$`
+		* May need to utilize as a filter instead of query
 
 ---
 

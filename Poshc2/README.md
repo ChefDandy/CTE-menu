@@ -13,7 +13,7 @@
 [PSLO Scripts](Poshc2/pslo_scripts/README.md)
 
 ## Poshc2 Capabilities:
-> **NOTE:** all `Menu Items` have links in the title to their MITRE pages  
+> **NOTE:** all `Menu Items` have links in the title to their MITRE pages for more information on the events.  
 
 | Menu Item                                                                       | Completed | Notes                                    |
 |---------------------------------------------------------------------------------|-----------|------------------------------------------|
@@ -45,7 +45,7 @@
 | [Modify registry](instructions/Modify_registry.md)                              | NOPE      | Detection methods/review syntax                                      |
 | [Mshta.exe](instructions/MSHTA.MD)                                              | NOPE      | Some syntax added, needs more work        |
 | [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)    | NOPE      | Detection method/review   |
-| [Network Share Discovery](instructions/Network_share_discovery.md)              | NOPE      | Initial import                                      |
+| [Network Share Discovery](instructions/Network_share_discovery.md)              | KINDA      | Updated detection method/review                                      |
 | [New service / service execution](instructions/New_Service_Server_Execution.md) | NOPE      | Reviewed                           |
 | [OS Credential Dumping](instructions/Credential_Dumping.md)                     | NOPE      | duplicate of cred dumping                                     |
 | [Options injection](instructions/Options_injection.md)                          | NOPE      | Detection methods/review needed |
@@ -60,17 +60,17 @@
 | [Process Injection](instructions/Process_injection.md)                          | NOPE      | Detection Methods/Review                                      |
 | [Query registry](instructions/Query_Registry.md)                                | NOPE      | Detection methods/Review                                     |
 | [Redundant access](instructions/Reduntant_access.md)                            | NOPE      | Initial import/needs verification                                      |
-| [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)| NOPE      | Initial import/posh syntax                                      |
+| [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)| KINDA      | Updated syntax/Detection methods needed?                                      |
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                    | NOPE      | Initial import/poshc2 syntax                                      |
 | [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)              | NOPE      | Needs further instructions                                      |
 | [Rundll32](instructions/Rundll32.md)                                            | NOPE      | Initial import/posh syntax                                      |
 | [Scripting](instructions/Scripting.md)                                          | NOPE      | Initial import/posh syntax                                      |
-| [Services Registry Permissions Weakness](Poshc2/instructions/Service_registry_permissions_weakness.md)| NOPE      | Initial import                                      |
+| [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)| NOPE      | Initial import                                      |
 | [Spearphishing attachment](instructions/Spearfishing_attachment.md)             | NOPE      | Initial import/needs mime type           |
 | [Spearphishing link](instructions/Spearfishing_Link.md)                         | NOPE      | Initial import/ needs verification       |
 | [System Information Discovery Win](/Poshc2/instructions/System_Information%20_Discovery_Win.md)| NOPE      | Detection Method/Review
 | [System Shutdown/Reboot](instructions/System_shutdown_reboot.md)                | NOPE      | Detection/review                                      |
 | [System Time Discovery](instructions/System_time_discovery.md)                  | NOPE      | Detection Method/Review |
-| [Valid accounts](instructions/Valid_accounts.md)                                | NOPE      | Initial import                                      |
+| [Valid accounts](instructions/Valid_accounts.md)                                | NOPE      | Initial import/needs review                                     |
 | [Windows Management Instrumentation](instructions/Windows_Managment_Instrumentation.md)| KINDA      | DETECTION ADDED                                      |
 | Paragraph                                                                       | NOPE      | DOG                                      |

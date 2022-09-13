@@ -13,4 +13,4 @@ sharpps net accounts /domain ##password policy for the Domain
 ```
 
 ## Detection Technique:
-* Attempt to access detailed information about the password policy.
+* Monitor for the use of net Accounts

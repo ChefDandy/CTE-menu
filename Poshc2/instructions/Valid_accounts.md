@@ -4,6 +4,11 @@
 
 * with a system level callback “invoke-mimikatz” to acquire valid accounts. Any implant using a user’s creds is valid accounts.
 
+```powershell 
+```
+
+
+
 ## Detection Technique:
 * Look for files manipulated while the adversary is on the box, using regular user accounts.
     * (Kibana): Winlog Index= “event.code:4720”

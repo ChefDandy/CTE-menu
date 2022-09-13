@@ -6,9 +6,9 @@ Gather the system time and/or time zone from a local or remote system.
 ## Exploit syntax:
 In PoshC2, run 
 ```sh
-sharps net time \\<ipAddress> ##For remote computer time
+sharpps net time \\<ipAddress> ##For remote computer time
 
-sharps net time ##For the implants time
+sharpps net time ##For the implants time
 ```
 ## Detection Technique:
 * Observe Situational Awareness commands such as net.exe. 

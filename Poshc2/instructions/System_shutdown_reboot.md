@@ -12,3 +12,4 @@ or In Posh, run
 ## Detection Technique:
 * (Splunk): Observe shutdown type “restart/reboot” on behalf of user and their process
 * (Kibana): String search in kibana. (“restart”)
+* Check Event IDs in relation to Shutdowns/restarts. e.g 1076,1074, etc

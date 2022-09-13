@@ -11,6 +11,7 @@
 
 3. Have victim browse to malicious link created.
 
+---
 
 ## Detection Technique:
 * Investigate connections with unusually large urls and to known bad ip

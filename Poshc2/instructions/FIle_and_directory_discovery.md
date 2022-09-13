@@ -6,11 +6,11 @@ Enumerate files and directories
 ## Exploit syntax:
 
 ```powershell
-
 sharpps ls
+```
 
+```powershell
 sharpps dir
-
 ```
 
 

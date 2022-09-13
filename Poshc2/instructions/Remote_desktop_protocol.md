@@ -12,8 +12,13 @@ firewall rule has been created:
 sharpps netsh.exe advfirewall firewall show rule status=enabled name=enablerdp 
 
 ```
+---
 
 * Note, add syntax for xfreerdp once added to parrot to utilize newly opened firewall on victim## Detection Technique:
+
+---
+
+## Detections
 * Investigate all remote desktop connections.
 * Investigate all event code 4624 ( remote logons )
 

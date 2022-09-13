@@ -20,6 +20,7 @@
 | [Accessibility Features](instructions/Accessibility_features.md)                                               | KINDA     | Detection method/Reviewed                              |
 | [Account Discovery](instructions/Account_Discovery.md)                                                         | KINDA     | Detection method/Reviewed                              |
 | [Account Manipulation](instructions/Account_manipulation.md)                                                   | KINDA     | Updated detection method/AD Account / reviewed         |
+| [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       | KINDA     | nope                                                   |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 | NOPE      | Detection method/Review                                |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | NOPE      | detection methods (Not working on PCTE)                |
 | [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       | NOPE      | syntax complete for windows(ie and chrome)             |
@@ -41,7 +42,7 @@
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         | NOPE      | Detection methods/Review                               |
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               | YES       |                                                        |
 | [Login item](instructions/Login_item.md)                                                                       | NOPE      | Detection method/review                                |
-| [Logon script](instructions/Logon_Scripts.md)                                                                  | NOPE      | Initial import/posh syntax                             |
+| [Logon script](instructions/Logon_Scripts.md)                                                                  | NOPE      | Review                            |
 | [Modify registry](instructions/Modify_registry.md)                                                             | NOPE      | Detection methods/review syntax                        |
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             | NOPE      | Some syntax added, needs more work                     |
 | [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   | NOPE      | Detection method/review                                |
@@ -59,7 +60,7 @@
 | [Process Discovery](instructions/Process_Discovery.md)                                                         | NOPE      | Need Detection Method                                  |
 | [Process Injection](instructions/Process_injection.md)                                                         | NOPE      | Detection Methods/Review                               |
 | [Query registry](instructions/Query_Registry.md)                                                               | NOPE      | Detection methods/Review                               |
-| [Redundant access](instructions/Reduntant_access.md)                                                           | KINDA      | Updated syntax/needs verification                      |
+| [Redundant access](instructions/Reduntant_access.md)                                                           | KINDA     | Updated syntax/needs verification                      |
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)                         | KINDA     | Updated syntax/Detection methods needed?               |
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   | NOPE      | Initial import/poshc2 syntax                           |
 | [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             | NOPE      | Needs further instructions                             |

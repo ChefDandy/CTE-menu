@@ -12,6 +12,8 @@ sharpps get-computerinfo
 sharpps get-item 
 ```
 
+---
+
 ## Detection Technique 
 
 1. Investigate powershell running at a user level.

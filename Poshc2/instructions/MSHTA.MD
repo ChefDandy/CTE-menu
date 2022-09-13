@@ -14,7 +14,6 @@ sharpps "c:\windows\syswow64\windowspowershell\v1.0\powershell.exe" iex $env:vec
 ```
 
 
-
 ## Detection Technique
 
 * Investigate any instances of mshta.exe, if it is common, investigate mshta.exe interacting with the compromised machine itself.
@@ -23,7 +22,7 @@ sharpps "c:\windows\syswow64\windowspowershell\v1.0\powershell.exe" iex $env:vec
     * Event.Action: Process Create
     * Event.Type: start, process start
     * Winlog.task: File Creation
-    * 
+
 
 ## Resources 
 * https://redcanary.com/blog/microsoft-html-application-hta-abuse-part-deux/

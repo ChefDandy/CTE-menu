@@ -12,11 +12,11 @@ sharpreg query HKLM\SYSTEM\CurrentControlSet\services\gupdatem | poshgrep ImageP
 
 # Here we change the key that we just queried above. We notated what it was before we make changes
 
-sharpreg create HKLM\SYSTEM\CurrentControlSet\Services\gupdatem EXPAND_SZ ImagePath "C:\Windows\WinSxS\x86_microsoft-windows-calc_31bf3856ad364e35_10.0.14393.0_none_7b13d13279112b2e\calc.exe"
+sharpreg create "HKLM\SYSTEM\CurrentControlSet\Services\gupdatem"  "ImagePath" "C:\Windows\WinSxS\x86_microsoft-windows-calc_31bf3856ad364e35_10.0.14393.0_none_7b13d13279112b2e\calc.exe" EXPAND_SZ
 
 # If necessary, you may change the key back to its original state:
 
-sharpreg create HKLM\SYSTEM\CurrentControlSet\Services\gupdatem EXPAND_SZ ImagePath "\"C:\Program Files\Google\Update\GoogleUpdate.exe\" /medsvc"
+sharpreg create "HKLM\SYSTEM\CurrentControlSet\Services\gupdatem" "ImagePath" "C:\Program Files\Google\Update\GoogleUpdate.exe /medsvc" EXPAND_SZ 
 
 # Also possible to just outright delete a key
 

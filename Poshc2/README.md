@@ -23,8 +23,8 @@
 | [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       | KINDA     | nope                                                   |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 | NOPE      | Detection method/Review                                |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | NOPE      | detection methods (Not working on PCTE)                |
-| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       | NOPE      | syntax complete for windows(ie and chrome)             |
-| [Create Account](instructions/Create_account.md)                                                               | NOPE      | Detection method/Review                                |
+| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       | KINDA      | syntax complete for windows(ie and chrome)             |
+| [Create Account](instructions/Create_account.md)                                                               | KINDA      | Detection method/Review                                |
 | [Credential Dumping](instructions/Credential_Dumping.md)                                                       | KINDA     | Updated detection method/Review                        |
 | [Data Destruction](instructions/Data_destruction.md)                                                           | KINDA     | Updated detection methods and syntax/Review            |
 | [Data from Local System](instructions/Data_from_local_system.md)                                               | NOPE      | Updated detection method and syntax/Review             |
@@ -36,14 +36,14 @@
 | [Exploitation for Privilege Escalation](instructions/Exploitation_for_privilege_escalation.md)                 | NOPE      | Initial import/posh syntax                             |
 | [File and Directory Discovery](instructions/FIle_and_directory_discovery.md)                                   | KINDA     | Added detection methods/ Review                        |
 | [File and Directory Permissions modification](instructions/File_And_Directory_Permissions_Modification.md)     | KINDA     | Added detection methods/ Review                        |
-| [File Deletion](instructions/File_deletion.md)                                                                 | NOPE      | Detection Method/review                                |
-| [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   | NOPE      | Detection method/Detect hidden files                   |
+| [File Deletion](instructions/File_deletion.md)                                                                 | KINDA      | Detection Method/review                                |
+| [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   | KINDA      | Detection method/Detect hidden files                   |
 | [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       | NOPE      | Detection method/Review                                |
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         | NOPE      | Detection methods/Review                               |
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               | YES       |                                                        |
 | [Login item](instructions/Login_item.md)                                                                       | NOPE      | Detection method/review                                |
-| [Logon script](instructions/Logon_Scripts.md)                                                                  | NOPE      | Review                            |
-| [Modify registry](instructions/Modify_registry.md)                                                             | NOPE      | Detection methods/review syntax                        |
+| [Logon script](instructions/Logon_Scripts.md)                                                                  | KINDA      | Review                            |
+| [Modify registry](instructions/Modify_registry.md)                                                             | KINDA      | Updated detection methods and review syntax                        |
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             | NOPE      | Some syntax added, needs more work                     |
 | [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   | NOPE      | Detection method/review                                |
 | [Network Share Discovery](instructions/Network_share_discovery.md)                                             | KINDA     | Updated detection method/review                        |
@@ -66,11 +66,11 @@
 | [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             | NOPE      | Needs further instructions                             |
 | [Rundll32](instructions/Rundll32.md)                                                                           | NOPE      | Initial import/posh syntax                             |
 | [Scripting](instructions/Scripting.md)                                                                         | NOPE      | Initial import/posh syntax                             |
-| [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                | NOPE      | Initial import                                         |
+| [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                | KINDA      | Updated syntax/ Review                                         |
 | [Spearphishing attachment](instructions/Spearfishing_attachment.md)                                            | NOPE      | Initial import/needs mime type                         |
 | [Spearphishing link](instructions/Spearfishing_Link.md)                                                        | NOPE      | Initial import/ needs verification                     |
 | [System Information Discovery Win](/Poshc2/instructions/System_Information%20_Discovery_Win.md)                | NOPE      | Detection Method/Review                                |
-| [System Shutdown/Reboot](instructions/System_shutdown_reboot.md)                                               | NOPE      | Detection/review                                       |
+| [System Shutdown/Reboot](instructions/System_shutdown_reboot.md)                                               | KIND     | review                                       |
 | [System Time Discovery](instructions/System_time_discovery.md)                                                 | NOPE      | Detection Method/Review                                |
 | [Valid accounts](instructions/Valid_accounts.md)                                                               | NOPE      | Initial import/needs review                            |
 | [Windows Management Instrumentation](instructions/Windows_Managment_Instrumentation.md)                        | KINDA     | DETECTION ADDED                                        |

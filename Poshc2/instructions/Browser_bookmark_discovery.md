@@ -5,7 +5,7 @@
 2. If unknown, determine the OS and browsers of the system
 3. Based on the OS and browsers, execute the proper syntax below:
 
-
+> **Note: The following commands may return no results if there are no bookmarks on the system and may also return results from directories that you may not have a.** 
 ---
 
 ## Windows

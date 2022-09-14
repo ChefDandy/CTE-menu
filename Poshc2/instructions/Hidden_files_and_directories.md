@@ -8,7 +8,7 @@ sharpps echo hiddenjibberish > <Filepath on Victim> ##Echo returns its argument 
 sharpps attrib +h <Filepath of created file on Victim> ##Changes the permissions on the file chosen
 ```
 ## Detection technique:
-* view file attribute manipulation via attrib.exe
+* View file attribute manipulation via attrib.exe
     * process.name:\*attrib.exe\*
 * Monitor the file system and shell commands for files being created with a leading "."
-* Monittor for use of attrib.exe to add the Hidden attribute
+* Monitor for use of attrib.exe to add the Hidden attribute

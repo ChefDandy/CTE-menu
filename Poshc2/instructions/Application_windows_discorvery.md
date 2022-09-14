@@ -1,4 +1,4 @@
-# [Application Window Discovery]()
+# [Application Window Discovery](https://attack.mitre.org/techniques/T1010/)
 
 ## Exploit Description: 
 Obtain a listing of open application windows.
@@ -26,6 +26,6 @@ sharpps get-process
 ---
 
 ## Detection Technique:
-* Look for any process enumeration (ls / get-process
+* Look for any process enumeration (ls / get-process)
 
 ## Resources

@@ -14,6 +14,8 @@ Sharpps REG QUERY <PATH OF KEY TO QUERY>
 * (Kibana): Utilize string searches for reg.exe queries
     * “reg.exe” and “query” or "C:\\Windows\\system32\\reg.exe" and "query"
 
+* Monitor processes, commands, and arguments for actions that interact with the Windows Registry to gather information about the system
+
 --- 
 
 ## Resources

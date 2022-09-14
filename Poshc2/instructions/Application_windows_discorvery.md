@@ -26,6 +26,8 @@ sharpps get-process
 ---
 
 ## Detection Technique:
-* Look for any process enumeration (ls / get-process)
+* Look for any process enumeration (ls / get-process / dir)
+* Event.code: 1
+* process.args:<command and/or arguments>
 
 ## Resources

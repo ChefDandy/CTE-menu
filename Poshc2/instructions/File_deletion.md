@@ -9,7 +9,7 @@ In PoshC2, run
 posh-delete <file path on Victim> #built in posh command
 ```
 
-```
+```sh
 sharpps remove-item <File path on Victim> #Powershell cmdlet
 ```
 

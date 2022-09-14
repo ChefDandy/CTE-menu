@@ -38,7 +38,7 @@
 | [File and Directory Permissions modification](instructions/File_And_Directory_Permissions_Modification.md)     | KINDA     | Added detection methods/ Review                        |
 | [File Deletion](instructions/File_deletion.md)                                                                 | KINDA      | Detection Method/review                                |
 | [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   | KINDA      | Detection method/Detect hidden files                   |
-| [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       | NOPE      | Detection method/Review                                |
+| [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       | KINDA     | Review                                |
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         | NOPE      | Detection methods/Review                               |
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               | YES       |                                                        |
 | [Login item](instructions/Login_item.md)                                                                       | NOPE      | Detection method/review                                |
@@ -50,16 +50,17 @@
 | [New service / service execution](instructions/New_Service_Server_Execution.md)                                | NOPE      | Reviewed                                               |
 | [OS Credential Dumping](instructions/Credential_Dumping.md)                                                    | NOPE      | duplicate of cred dumping                              |
 | [Options injection](instructions/Options_injection.md)                                                         | NOPE      | Detection methods/review needed                        |
-| [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         | NOPE      | detections needed                                      |
-| [Path interception](instructions/Path_Interception.md)                                                         | NOPE      | Basic syntax added/review                              |
+| [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         | KINDA      | detections needed                                      |
+| [Path interception](instructions/Path_Interception.md)                                                         | KINDA     | Basic syntax added/review                              |
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                                                     | NOPE      | Initial import/posh syntax                             |
-| [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | NOPE      | Detections methods/Review                              |
-| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     | NOPE      | Detection methods/review                               |
+| [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | KINDA      | Detections methods/Review                              |
+| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     | KINDA     | review    
+                           |
 | [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             | NOPE      | detection methods/ review                              |
 | [Powershell](instructions/PowerShell.md)                                                                       | KINDA     | DETECTIONS ADDED                                       |
 | [Process Discovery](instructions/Process_Discovery.md)                                                         | NOPE      | Need Detection Method                                  |
 | [Process Injection](instructions/Process_injection.md)                                                         | NOPE      | Detection Methods/Review                               |
-| [Query registry](instructions/Query_Registry.md)                                                               | NOPE      | Detection methods/Review                               |
+| [Query registry](instructions/Query_Registry.md)                                                               | KINDA      | Detection methods/Review                               |
 | [Redundant access](instructions/Reduntant_access.md)                                                           | KINDA     | Updated syntax/needs verification                      |
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)                         | KINDA     | Updated syntax/Detection methods needed?               |
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   | NOPE      | Initial import/poshc2 syntax                           |

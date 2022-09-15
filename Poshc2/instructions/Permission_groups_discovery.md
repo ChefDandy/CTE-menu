@@ -17,3 +17,4 @@ Sharpps net localgroup ##View Local groups on Computer
 ## Detection Technique:
 * Monitor for newly constructed processes and/or command-lines for actions that could be taken to gather system and network information
 * Monitor for commands ran in WMI and Powershell related to group enumeration.
+* Observe Situational Awareness commands such as net.exe.

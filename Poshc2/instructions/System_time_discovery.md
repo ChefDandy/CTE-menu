@@ -1,4 +1,4 @@
-# [System Time Discovery]()
+# [System Time Discovery](https://attack.mitre.org/techniques/T1124/)
 
 ## Exploit description:
 Gather the system time and/or time zone from a local or remote system.

@@ -45,7 +45,7 @@
 | [Logon script](instructions/Logon_Scripts.md)                                                                  | KINDA     | Review                                                 |
 | [Modify registry](instructions/Modify_registry.md)                                                             | KINDA     | Updated detection methods and review syntax            |
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             | NOPE      | Some syntax added, needs more work                     |
-| [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   | NOPE      | Detection method/review                                |
+| [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   | KINDA      | Updated detection methods/ reviewreview                                |
 | [Network Share Discovery](instructions/Network_share_discovery.md)                                             | KINDA     | Updated detection method/review                        |
 | [New service / service execution](instructions/New_Service_Server_Execution.md)                                | NOPE      | Reviewed                                               |
 | [OS Credential Dumping](instructions/Credential_Dumping.md)                                                    | NOPE      | duplicate of cred dumping                              |

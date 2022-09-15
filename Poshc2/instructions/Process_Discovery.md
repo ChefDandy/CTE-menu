@@ -15,5 +15,7 @@ sharpps get-process
 ```
 
 ## Detection Method
-1. Monitor for commands being run that involve 
+*1.* Can reference [Application windows discovery](/Poshc2/instructions/Application_windows_discorvery.md) for basic overview of what applications are seen running.
+
+
 ## Resources

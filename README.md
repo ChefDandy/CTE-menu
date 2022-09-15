@@ -13,7 +13,7 @@
 
 ---
 
-## Workstaion Hunt Checklists 
+## Workstation Hunt Checklists 
 
 | Hunt Check List | Description |
 |-----------------|-------------|

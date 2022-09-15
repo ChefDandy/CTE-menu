@@ -15,5 +15,5 @@ sharpps get-process
 ```
 
 ## Detection Method
-
+1. Monitor for commands being run that involve 
 ## Resources

@@ -21,6 +21,7 @@ inject-shellcode <PID>
 1. Sysmon `event.code:8` is the creation of a remote process thread
 2. Sysmon `event.code:10` is process access
 3. Investigate restarting processes.
+4. Look into parent process starting unusual child processes (Example: OneDrive.exe starting notepad.exe)
 
 ---
 

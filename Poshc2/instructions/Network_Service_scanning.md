@@ -5,12 +5,14 @@ Obtain a listing of services running on remote hosts
 ---
 ## Exploit syntax:
 In Poshc2, run 
-```sh
+```powershell
 portscan <ipaddress> <Port-Range> ## For remote Scan
-
+```
+```powershell
 sharpps netstat -ano  ##For local ports of implant
 ```
 ---
+
 ## Detection Technique:
 * Investigate instances of a single host attempting to make connections to another single host on multiple ports below 1000. Timeframe may vary, but the faster- the more suspicious.
 
@@ -20,6 +22,7 @@ sharpps netstat -ano  ##For local ports of implant
     * > Searching for scans happening from a network by looking for traffic leaving it. The destination can alternatively be changed to individual CIDRs of another network.
 * Metric: count
     * Bucket 1
+    * > Size can be adjusted here as long as the other buckets remain high in number and their order remains ascending
         * Aggregation: Terms
         * Field: source.ip
         * Order: either
@@ -34,8 +37,7 @@ sharpps netstat -ano  ##For local ports of implant
         * Field: destination
         * Order: ascending
         * Size: 100
-    *
-
+ * > Very basic but the query source or destination can be altered to search the networks by segments. 
 ### Sharpps netstat -ano
 * process.parent.name: nope.exe     
 * process.name: NETSTAT.EXE

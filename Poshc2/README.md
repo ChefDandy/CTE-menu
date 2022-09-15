@@ -55,16 +55,16 @@
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                                                     | NOPE      | Initial import/posh syntax                             |
 | [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | KINDA     | Detections methods/Review                              |
 | [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     | KINDA     | review                                                 |
-| [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             | KINDA      | detection methods/ review                              |
+| [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             | KINDA     | detection methods/ review                              |
 | [Powershell](instructions/PowerShell.md)                                                                       | KINDA     | DETECTIONS ADDED                                       |
 | [Process Discovery](instructions/Process_Discovery.md)                                                         | NOPE      | Need Detection Method                                  |
 | [Process Injection](instructions/Process_injection.md)                                                         | NOPE      | Detection Methods/Review                               |
 | [Query registry](instructions/Query_Registry.md)                                                               | KINDA     | Detection methods/Review                               |
 | [Redundant access](instructions/Reduntant_access.md)                                                           | KINDA     | Updated syntax/needs verification                      |
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)                         | KINDA     | Updated syntax/Detection methods needed?               |
-| [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   | NOPE      | Initial import/poshc2 syntax                           |
+| [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   | KINDA     | Review                           |
 | [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             | NOPE      | Needs further instructions                             |
-| [Rundll32](instructions/Rundll32.md)                                                                           | KINDA      | Review syntax                             |
+| [Rundll32](instructions/Rundll32.md)                                                                           | KINDA     | Review                             |
 | [Scripting](instructions/Scripting.md)                                                                         | NOPE      | Initial import/posh syntax                             |
 | [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                | KINDA     | Updated syntax/ Review                                 |
 | [Spearphishing attachment](instructions/Spearfishing_attachment.md)                                            | NOPE      | Initial import/needs mime type                         |

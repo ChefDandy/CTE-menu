@@ -2,7 +2,6 @@
 
 ## Exploit syntax:
 
-```powershell 
 1. Create a powershell script and save it to /tmp/christBeaver.txt
 
 2. In posh run:

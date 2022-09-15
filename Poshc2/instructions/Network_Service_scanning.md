@@ -34,6 +34,7 @@ sharpps netstat -ano  ##For local ports of implant
         * Field: destination
         * Order: ascending
         * Size: 100
+    *
 
 ### Sharpps netstat -ano
 * process.parent.name: nope.exe     

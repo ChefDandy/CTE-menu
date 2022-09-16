@@ -1,6 +1,7 @@
 # [Browser Bookmark Discovery](https://attack.mitre.org/techniques/T1217/)
 
 ## Exploit syntax:
+
 1. Obtain implant into system
 2. If unknown, determine the OS and browsers of the system
 3. Based on the OS and browsers, execute the proper syntax below:
@@ -8,7 +9,7 @@
 > **Note: The following commands may return no results if there are no bookmarks on the system and may also return results from directories that you may not have a.** 
 ---
 
-## Windows
+## **Windows**
 *  Chrome
     ```powershell
     sharpps Get-ChildItem -Path C:\Users\ -Filter Bookmarks -Recurse -ErrorAction SilentlyContinue -Force
@@ -36,7 +37,7 @@
     ```
 ---
 
-## Linux:(untested)
+## **Linux:(untested)**
 * Mozilla:
     ```powershell
     sharpps find / -path "*.mozilla/firefox/*/places.sqlite" 2>/dev/null -exec echo {} >> #{output_file} \; cat #{output_file} 2>/dev/null 
@@ -44,7 +45,7 @@
 
 ---
 
-## MacOS(untested)
+## **MacOS(untested)**
 
 * Mozilla
     ```powershell 
@@ -61,12 +62,12 @@
 
 ---
 
-## Detection Technique:
+## **Detection Technique:**
 * Investigate any instances of a user accessing bookmark locations.
 * Investigate use of executed commands and arguments for actions that could be taken to gather browser bookmark information
 * 
 
 ---
 
-## Resources: 
+## **Resources:**
 https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1217/T1217.md

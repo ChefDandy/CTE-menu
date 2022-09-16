@@ -4,9 +4,14 @@
 ```powershell
 sharpps Nltest.exe /domain_trusts 
 ```
+---
 
 ## Detection Technique:
 * Investigate any queries of a service with “domain” as a key word
 * (Kibana): Search on possible string queries based on powershell domain trust enumeration commands
-	*Get-DomainTrusts
-	*Get-NetDomainTrusts
+	* Get-DomainTrusts
+	* Get-NetDomainTrusts
+
+--- 
+
+## Resources

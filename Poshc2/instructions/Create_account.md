@@ -1,6 +1,6 @@
 # [Create account](https://attack.mitre.org/techniques/T1136/)
 
-## Exploit syntax:
+## **Exploit syntax:**
 
 1. Obtain implant into system
 2. If unknown, determine the OS of the system
@@ -23,7 +23,10 @@ useradd [OPTIONS] USERNAME
 >***NOTE***: must be root or a user with sudo privileges 
 
 ---
-## Detection Techniques:
+## **Detection Techniques:**
 * Investigate account creation via the net.exe process. Looking for Event ID 4720 if an account is created on a windows system.
 * event.code:4720
 * Investigate /var/log/secure file for attempts to create users
+
+---
+## **Resources:**

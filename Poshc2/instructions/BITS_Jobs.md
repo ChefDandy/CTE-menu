@@ -6,7 +6,7 @@
     ```powershell
     mkdir /tmp/Abrodolph
     ```
-    
+
     ```powershell
     cd /tmp/Abrodolph
     ```

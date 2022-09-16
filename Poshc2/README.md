@@ -22,14 +22,14 @@
 | [Account Manipulation](instructions/Account_manipulation.md)                                                   |        |            | KINDA     | AD Account Missing / reviewed                             |
 | [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       |        |            | YES       | Reviewed                                                  |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 |        |            | NOPE      | NEEDS REAL DETECTIONS                                     |
-| [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | YES    | YES        | KINDA     | Reviewed / need event codes and actions                   |
+| [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | YES    | YES        | YES       | Reviewed                                                  |
 | [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        |            | KINDA     | Detections need more detail, eventcodes/actions           |
 | [Create Account](instructions/Create_account.md)                                                               |        |            | SURE      | Reviewed                                                  |
 | [Credential Dumping](instructions/Credential_Dumping.md)                                                       |        |            | SURE      | Reviewed                                                  |
 | [Data Destruction](instructions/Data_destruction.md)                                                           |        |            | SURE      | Reviewed                                                  |
 | [Data from Local System](instructions/Data_from_local_system.md)                                               |        |            | KINDA     | Updated detection method and syntax/Review                |
 | [Data Staged](instructions/Data_Staged.md)                                                                     |        |            | KINDA     | Reviewed, could be better                                 |
-| [Domain Trust Discovery](/Poshc2/instructions/Domain_Trust_Discovery.md)                                       |        |            | NOPE      | Reviewed, could be better                                 |
+| [Domain Trust Discovery](/Poshc2/instructions/Domain_Trust_Discovery.md)                                       |        |            | KINDA     | Reviewed, could be better                                 |
 | [Drive-by Compromise](/Poshc2/instructions/Drive-by_compromise.md)                                             |        |            | SURE      | Reviewed                                                  |
 | [Dynamic Data Exchange](instructions/Dynamic_Data_Exchange.md)                                                 |        |            | SURE      | Reviewed                                                  |
 | [Exfiltration Over Command and Control Channel](instructions/Exfiltration_over_command_and_control_channel.md) |        |            | KINDA     | Updated detection methods and syntax/Needs more detail    |

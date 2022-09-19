@@ -2,7 +2,9 @@
 
 ## Exploit Description: 
 Obtain a listing of services running on remote hosts
+
 ---
+
 ## Exploit syntax:
 In Poshc2, run 
 ```powershell
@@ -38,6 +40,7 @@ sharpps netstat -ano  ##For local ports of implant
         * Order: ascending
         * Size: 100
  * > Very basic but the query source or destination can be altered to search the networks by segments.  
+
 ### Sharpps netstat -ano
 * process.parent.name: nope.exe     
 * process.name: NETSTAT.EXE

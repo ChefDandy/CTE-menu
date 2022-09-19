@@ -12,4 +12,4 @@ sharpps net time ##For the implants time
 ```
 ## Detection Technique:
 * Observe Situational Awareness commands such as net.exe. 
-* Possible Kibana queries (“net.exe start” or “net.exe” and “start”)
+* Possible Kibana queries (“net.exe start” or “net.exe” and “start”)(tested)

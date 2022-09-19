@@ -2,6 +2,10 @@
 
 ## **Exploit syntax:**
 
+For execution, refrence the following menu item:
+* [Account Manipulation](Account_manipulation.md)
+---
+
 1. Obtain implant into system
 2. If unknown, determine the OS of the system
 3. Based on the OS, execute the proper syntax below:

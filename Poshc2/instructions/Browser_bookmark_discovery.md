@@ -64,8 +64,12 @@
 
 ## **Detection Technique:**
 * Investigate any instances of a user accessing bookmark locations.
-* Investigate use of executed commands and arguments for actions that could be taken to gather browser bookmark information
-* 
+* Investigate use of executed commands and arguments for actions that could be taken to gather browser bookmark information.
+* Search for instances of powershell being ran in the `process.command_line` field to enumerate bookmark locations. For Instance:
+```powershell
+Get-ChildItem -Path C:\Users\ -Filter Bookmarks -Recurse -ErrorAction SilentlyContinue -Force
+```
+>*Note*: This powershell command specifies a recursive search of the \Users directory for any file or folder with the name `Bookmarks`. This is how Chrome names its Bookmarks and they are in JSON format.
 
 ---
 

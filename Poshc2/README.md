@@ -19,14 +19,14 @@
 
 | Menu Item                                                                                                      | tested | Detections | Completed | Notes                                                     |
 |----------------------------------------------------------------------------------------------------------------|--------|------------|-----------|-----------------------------------------------------------|
-| [Accessibility Features](instructions/Accessibility_features.md)                                               |   YES     |     YES       | YES       |Reviewed                                                  |
-| [Account Discovery](instructions/Account_Discovery.md)                                                         |      YES  |     YES       | YES       | Reviewed                                                  |
-| [Account Manipulation](instructions/Account_manipulation.md)                                                   |        |            | KINDA     | AD Account Missing / reviewed                             |
+| [Accessibility Features](instructions/Accessibility_features.md)                                               | YES    | YES        | YES       | Reviewed                                                  |
+| [Account Discovery](instructions/Account_Discovery.md)                                                         | YES    | YES        | YES       | Reviewed                                                  |
+| [Account Manipulation](instructions/Account_manipulation.md)                                                   |    YES    |   YES         | YES     | Reviewed                             |
 | [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       |        |            | YES       | Reviewed                                                  |
-| [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 |        |            | NOPE      | Reviewed                                     |
+| [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 |     YES   |      YES      | YES      | Reviewed                                                  |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | YES    | YES        | YES       | Reviewed                                                  |
-| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        |            | KINDA     | Detections need more detail, eventcodes/actions           |
-| [Create Account](instructions/Create_account.md)                                                               |        |            | SURE      | Reviewed                                                  |
+| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        |            | KINDA     | Reviewed                                                  |
+| [Create Account](instructions/Create_account.md)                                                               |    YES    |    YES        | YES      | Reviewed                                                  |
 | [Credential Dumping](instructions/Credential_Dumping.md)                                                       |        |            | SURE      | Reviewed                                                  |
 | [Data Destruction](instructions/Data_destruction.md)                                                           |        |            | SURE      | Reviewed                                                  |
 | [Data from Local System](instructions/Data_from_local_system.md)                                               |        |            | KINDA     | Updated detection method and syntax/Review                |
@@ -55,8 +55,8 @@
 | [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         |        |            | KINDA     | detections needed                                         |
 | [Path interception](instructions/Path_Interception.md)                                                         |        |            | KINDA     | Basic syntax added/review                                 |
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                                                     |        |            | NOPE      | Initial import/posh syntax                                |
-| [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | YES    | YES        | KINDS      | Review                                 |
-| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     |        |            | KINDA     | better detection needed/review                                                    |
+| [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | YES    | YES        | KINDS     | Review                                                    |
+| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     |        |            | KINDA     | better detection needed/review                            |
 | [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             |        |            | KINDA     | detection methods/ review                                 |
 | [Powershell](instructions/PowerShell.md)                                                                       |        |            | KINDA     | DETECTIONS ADDED                                          |
 | [Process Discovery](instructions/Process_Discovery.md)                                                         |        |            | KINDA     | Updated detection Method/ needs testing for linux/ review |

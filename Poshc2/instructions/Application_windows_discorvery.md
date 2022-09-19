@@ -3,7 +3,7 @@
 ## **Exploit syntax:**
 
   
-### **List processes**
+### **Undetectable methods**
 ```powershell
 getprocesslist
 ```
@@ -11,7 +11,6 @@ getprocesslist
 ```powershell 
 ps 
 ```
-### **Get a process**
 ```powershell 
 getprocess <explore>
 ```
@@ -19,11 +18,10 @@ getprocess <explore>
 ```powershell 
 sharpps get-process 
 ```
-### **Powershell Implant Commands**
+### **Detectable methods**
 ```powershell
-tasklist
+sharpps tasklist
 ```
->*Note*: With a powershell implant, running tasklist will invoke the tasklist.exe application, which is detectable in kibana
 
 ---
 

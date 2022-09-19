@@ -3,9 +3,11 @@
 ## Exploit Syntax
 In Poshc2, run
 ```sh
-get-computerinfo ##Returns Computer info :)
+get-computerinfo 
+##Returns Computer info :)
 
-sharpps syteminfo ##Alternative Info to the command above(more digestable)
+sharpps syteminfo 
+##Alternative Info to the command above(more digestable)
 ```
 
 ### Detection Method

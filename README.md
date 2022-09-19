@@ -11,9 +11,10 @@
 | CobaltStrike               | Later       |
 | Empire                     | Prob Not    |
 
+
 ---
 
-## Workstation Hunt Checklists 
+## **Workstation Hunt Checklists** 
 
 | Hunt Check List | Description |
 |-----------------|-------------|
@@ -22,10 +23,12 @@
 | place holder    | WIP         |
 
 
-## Tools Checklists 
+## **Tools Checklists**
 
 | Hunt Check List                                                                          | Description |
 |------------------------------------------------------------------------------------------|-------------|
 | [SwiftOnSecurity sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)        | WIP         |
 | [Windows Event Codes](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/) | WIP         |
+| [Process Hacker](https://processhacker.sourceforge.io/downloads.php)                     | WIP         |
 | place holder                                                                             | WIP         |
+

@@ -17,7 +17,8 @@ Or in Posh, run
 sharpps get-pnpDevice -PresentOnly ## Show only present connections
 ```
 
-## Detection Techniques:
-
+## Detection Methods:
+*
+Below are from Mitre 
 * Look at the access to any class with the ‘PnP’(windows plug and play) reference.
 * Monitor for newly executed processes and commands that may attempt to gather information about attached peripheral devices and components connected to a computer system.

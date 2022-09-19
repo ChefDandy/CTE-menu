@@ -7,6 +7,8 @@
 - [Poshc2 github Link](https://github.com/nettitude/PoshC2)  
 - [Poshc2 Help](poshC2_help_v8.md)
 - [SharpView](https://github.com/tevora-threat/SharpView)
+- [detecting-poshc2-indicators-of-compromise](https://labs.nettitude.com/blogdetecting-poshc2-indicators-of-compromise/)
+- [Nettitude Poshc2 IOCs](https://github.com/nettitude/PoshC2_IOCs)
 
 ### Custom Poshc2 PSLO Scripts
 
@@ -17,11 +19,11 @@
 
 | Menu Item                                                                                                      | tested | Detections | Completed | Notes                                                     |
 |----------------------------------------------------------------------------------------------------------------|--------|------------|-----------|-----------------------------------------------------------|
-| [Accessibility Features](instructions/Accessibility_features.md)                                               |        |            | YES       | Reviewed                                                  |
-| [Account Discovery](instructions/Account_Discovery.md)                                                         |        |            | YES       | Reviewed                                                  |
+| [Accessibility Features](instructions/Accessibility_features.md)                                               |   YES     |     YES       | YES       |Reviewed                                                  |
+| [Account Discovery](instructions/Account_Discovery.md)                                                         |      YES  |     YES       | YES       | Reviewed                                                  |
 | [Account Manipulation](instructions/Account_manipulation.md)                                                   |        |            | KINDA     | AD Account Missing / reviewed                             |
 | [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       |        |            | YES       | Reviewed                                                  |
-| [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 |        |            | NOPE      | NEEDS REAL DETECTIONS                                     |
+| [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 |        |            | NOPE      | Reviewed                                     |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | YES    | YES        | YES       | Reviewed                                                  |
 | [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        |            | KINDA     | Detections need more detail, eventcodes/actions           |
 | [Create Account](instructions/Create_account.md)                                                               |        |            | SURE      | Reviewed                                                  |
@@ -53,8 +55,8 @@
 | [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         |        |            | KINDA     | detections needed                                         |
 | [Path interception](instructions/Path_Interception.md)                                                         |        |            | KINDA     | Basic syntax added/review                                 |
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                                                     |        |            | NOPE      | Initial import/posh syntax                                |
-| [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 |        |            | NOPE      | Detections methods/Review                                 |
-| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     |        |            | KINDA     | review                                                    |
+| [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | YES    | YES        | KINDS      | Review                                 |
+| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     |        |            | KINDA     | better detection needed/review                                                    |
 | [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             |        |            | KINDA     | detection methods/ review                                 |
 | [Powershell](instructions/PowerShell.md)                                                                       |        |            | KINDA     | DETECTIONS ADDED                                          |
 | [Process Discovery](instructions/Process_Discovery.md)                                                         |        |            | KINDA     | Updated detection Method/ needs testing for linux/ review |

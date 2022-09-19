@@ -2,6 +2,8 @@
 
 ## Exploit Syntax
 
+> **NOTE:** YOU CANNOT DETECT THESE! For a detectable version, skip to step 4
+
 1. Instructions for local users (for domain users skip to step 3)
 
 2. With local or domain beacon in posh instance, run:
@@ -24,13 +26,20 @@ sharpview Get-NetUser
 ```powershell
 searchhelp sharpview 
 ```
+4. For local user enumeration, execute the following:
+```
+sharpps net user
+```
+5. For domain user enumeration, execute the following:
+```
+sharpps net user /domain
+```
 ---
 
 ## Detection Methods
 
 ### Get-userinfo Detections 
-*  event.action: `user-member-enumerated` / event.code:`4977`
-*  event.action: `group-membership-enumerated` / event.code:`4978`
+*  Monitor `net.exe` and `net1.exe` processes
 
 ---
 

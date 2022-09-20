@@ -1,0 +1,15 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source /etc/network/interfaces.d/*
+
+auto ens224 
+iface ens224 inet static
+address 64.132.36.69
+netmask 255.255.255.0
+gateway 64.132.36.1
+
+auto ens192
+iface ens192 inet static 
+address 200.200.200.69
+netmask 255.255.255.0
+gateway 200.200.200.1

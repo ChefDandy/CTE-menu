@@ -7,10 +7,11 @@ Attempt to access detailed information about the password policy.
 In PoshC2, run
 
 ```sh
-sharpps net accounts ##password policy for the Local Computer 
+sharpps powershell.exe -c net accounts ##password policy for the Local Computer 
 
-sharpps net accounts /domain ##password policy for the Domain
+sharpps powershell.exe -c net accounts /domain ##password policy for the Domain
 ```
 
 ## Detection Technique:
 * Monitor for the use of net Accounts
+* Monitor processes and commands(including their arguments) for actions that may attempt to access information about the password policy.

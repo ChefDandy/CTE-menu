@@ -9,6 +9,7 @@
 > ***Note***: Your current priveleges must include `SeDebugPrivilege` and `SeImpersonatePrivilege` 
 >> *These should be the default for users in the `Administrators group`*
 
+1. Run the following commands in your beacon and use one of the .bin files in the payloads folder
 ```powershell
 inject-shellcode <PID>
     <name_of_shellcode.bin>

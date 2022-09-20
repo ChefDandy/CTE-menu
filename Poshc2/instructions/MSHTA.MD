@@ -1,6 +1,6 @@
 # [MSHTA.exe](https://attack.mitre.org/techniques/T1218/005/)
 
-## Exploit Syntax:[incomplete] 
+## Exploit Syntax:
 
 
 1. Create an hta file with the following contents and save it in your malware directory: 

@@ -26,7 +26,7 @@ wmiexec 11.25.20.18 meetech.com administrator password=Simspace1!Simspace1!
 * cmd.exe
 
 ### Example 1 | *Detection Explination*
-* In example 1 we use poshc2 built in `wmiexec` command to get remote execution on another machine. When doing so we use WMI tool to kick off `mspaint.exe` using `cmd.exe`. Which leads to a the event actions addressed above (logged-in/logged-in-special, and proccess create). 
+* In example 1 we use poshc2 built in `wmiexec` command to get remote execution on another machine. When doing so, we use WMI tool to kick off `mspaint.exe` using `cmd.exe`. Which leads to a the event actions addressed above (logged-in/logged-in-special, and proccess create). 
 
     ### Identifiable Items
     * remote host name/ip 

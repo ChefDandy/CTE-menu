@@ -7,14 +7,14 @@ Find group and permission settings
 ## Exploit syntax:
 In PoshC2, Run
 ```sh
-sharpps net group /domain ##Enumerate all domain groups
+sharpps powershell.exe net group /domain ##Enumerate all domain groups
 
-sharpps net group "Domain Admins" /domain ##Enumerate domain group members
+sharpps powershell.exe net group "Domain Admins" /domain ##Enumerate domain group members
 
-Sharpps net localgroup ##View Local groups on Computer
+Sharpps powershell.exe net localgroup ##View Local groups on Computer
 
 ```
 ## Detection Technique:
 * Monitor for newly constructed processes and/or command-lines for actions that could be taken to gather system and network information
 * Monitor for commands ran in WMI and Powershell related to group enumeration.
-* Observe Situational Awareness commands such as net.exe.
+* monitor for net.exe. Kibana "net.exe".

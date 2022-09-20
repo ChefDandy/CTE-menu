@@ -11,6 +11,8 @@ posh-delete <file path on Victim> #built in posh command
 
 ```sh
 sharpps remove-item <File path on Victim> #Powershell cmdlet
+
+sharpps powershell.exe del <Path>
 ```
 
 

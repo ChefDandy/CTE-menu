@@ -10,6 +10,7 @@ or In Posh, run
  sharpps Stop-computer localhost ## Shutdown computer in current implant. 
  ```
 ## Detection Technique:
-* (Splunk): Observe shutdown type “restart/reboot” on behalf of user and their process
-* (Kibana): String search in kibana. (“restart”)
+* (Splunk): Observe shutdown type “restart/reboot” on behalf of user and their process(untested)
+* (Kibana): String search in kibana. 
+    * query “restart”
 * Check Event IDs in relation to Shutdowns/restarts. e.g 1076,1074, etc

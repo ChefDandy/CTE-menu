@@ -11,7 +11,7 @@ ls "<path>"
 
 get-content "<path>/file.txt"
 ```
->***Note***: *Without the carrots, but with the double quotes* 
+>***Note***: None of the commands above will generate logs if run inside posh
 ---
 ## Detection Technique:
 * Any remote manipulation of the local system, normally observed after seeing a compromised system.

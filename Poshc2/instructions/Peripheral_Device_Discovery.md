@@ -10,14 +10,14 @@
 
 In Posh, run 
 ```sh
-sharpps get-pnpdevice ## Shows all plug and play devices
-```
-Or in Posh, run
-```sh
-sharpps get-pnpDevice -PresentOnly ## Show only present connections
+sharpps powershell.exe get-pnpdevice ## Shows all plug and play devices
+
+sharpps powershell.exe get-pnpDevice -PresentOnly ## Show only present connections
+
+sharpps powershell.exe fsutil fsinfo drives #Gain info on Drives
 ```
 
-## Detection Techniques:
-
-* Look at the access to any class with the ‘PnP’(windows plug and play) reference.
+## Detection Methods:
+* Kibana "fsutil" 
+* Kibana "*pnpDevice"
 * Monitor for newly executed processes and commands that may attempt to gather information about attached peripheral devices and components connected to a computer system.

@@ -7,10 +7,10 @@ Attempt to access detailed information about the password policy.
 In PoshC2, run
 
 ```sh
-sharpps powershell.exe -c net accounts 
+net accounts 
 ##password policy for the Local Computer 
 
-sharpps powershell.exe -c net accounts /domain 
+net accounts /domain 
 ##password policy for the Domain
 ```
 

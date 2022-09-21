@@ -13,6 +13,7 @@ portscan <ipaddress> <Port-Range> ## For remote Scan
 ```powershell
 sharpps netstat -ano  ##For local ports of implant
 ```
+> *NOTE*: If you scan from the same internal subnet, it may not show on network traffic.
 ---
 
 ## Detection Technique:

@@ -25,9 +25,9 @@ get # Poshc2 Super Menu
 | [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       |        |            | YES       | Reviewed                                                  |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 | YES    | YES        | YES       | Reviewed                                                  |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | YES    | YES        | YES       | Reviewed                                                  |
-| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        | YES        | KINDA     | Reviewed                                                  |
+| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        |         | KINDA     | Reviewed                                                  |
 | [Create Account](instructions/Create_account.md)                                                               | YES    | YES        | YES       | Reviewed                                                  |
-| [Credential Dumping](instructions/Credential_Dumping.md)                                                       |        |            | SURE      | Reviewed                                                  |
+| [Credential Dumping](instructions/Credential_Dumping.md)                                                       |        |            | SURE      | Reviewed/DANGER                                                 |
 | [Data Destruction](instructions/Data_destruction.md)                                                           | YES    | SOMEWHAT   | YES       | Reviewed                                                  |
 | [Data from Local System](instructions/Data_from_local_system.md)                                               | YES    | NONE       | YES       | Reviewed                                                  |
 | [Data Staged](instructions/Data_Staged.md)                                                                     |        |            | KINDA     | Reviewed, could be better                                 |
@@ -36,23 +36,23 @@ get # Poshc2 Super Menu
 | [Dynamic Data Exchange](instructions/Dynamic_Data_Exchange.md)                                                 |        |            | SURE      | Reviewed                                                  |
 | [Exfiltration Over Command and Control Channel](instructions/Exfiltration_over_command_and_control_channel.md) |        |            | KINDA     | Updated detection methods and syntax/Needs more detail    |
 | [Exploitation for Privilege Escalation](instructions/Exploitation_for_privilege_escalation.md)                 |        |            | KINDA     | Initial import/posh syntax                                |
-| [File and Directory Discovery](instructions/FIle_and_directory_discovery.md)                                   |        |            | KINDA     | Added detection methods/ Review                           |
+| [File and Directory Discovery](instructions/FIle_and_directory_discovery.md)                                   |    YES    |   NONE         | YES     | Reviewed                           |
 | [File and Directory Permissions modification](instructions/File_And_Directory_Permissions_Modification.md)     |        |            | KINDA     | Added detection methods/ Review                           |
-| [File Deletion](instructions/File_deletion.md)                                                                 |        |            | KINDA     | Detection Method/review                                   |
-| [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   |        |            | KINDA     | Detection method/Detect hidden files                      |
+| [File Deletion](instructions/File_deletion.md)                                                                 |    YES    |          NONE  | YES     | Reviewed                                   |
+| [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   |     YES   |    NONE        | YES     | Reviewed                      |
 | [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       |        |            | KINDA     | Review                                                    |
-| [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         |        |            | KINDA     | Detection methods(if possible?)/Review                    |
+| [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         |   YES     |    NONE        | YES     | Reviewed                    |
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               |   YES     |         YES   | YES       |    Reviewed                                                   | 
 | [Login item](instructions/Login_item.md)                                                                       | YES    | YES        | YES     | Reviewed                                   |
 | [Logon script](instructions/Logon_Scripts.md)                                                                  |      YES  |     YES       | YES     | Reviewed                                                    |
 | [Modify registry](instructions/Modify_registry.md)                                                             |        |            | KINDA     | Review syntax               |
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             |      YES  |        YES    | YES     | Reviewed                                                    |
-| [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   |        |            | KINDA     | Updated detection methods/ reviewreview                   |
-| [Network Share Discovery](instructions/Network_share_discovery.md)                                             |        |            | KINDA     | Updated detection method/review                           |
+| [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   |    YES    |     YES       | YES     | Reviewed                   |
+| [Network Share Discovery](instructions/Network_share_discovery.md)                                             |    YES    |     YES       | YES     | Reviewed                           |
 | [New service / service execution](instructions/New_Service_Server_Execution.md)                                |        |            | NOPE      | Reviewed                                                  |
 | [OS Credential Dumping](instructions/Credential_Dumping.md)                                                    |        |            | NOPE      | duplicate of cred dumping                                 |
-| [Options injection](instructions/Options_injection.md)                                                         |        |            | NOPE      | Detection methods/review needed                           |
-| [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         |        |            | KINDA     | detections needed                                         |
+| [Options injection](instructions/Options_injection.md)                                                         |        |            | NOPE      | Detection methods/doesn't work currently                           |
+| [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         |     YES   |         YES   | YES     | Reviewed                                          |
 | [Path interception](instructions/Path_Interception.md)                                                         |        |            | KINDA     | Basic syntax added/review                                 |
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                                                     |        |            | NOPE      | Initial import/posh syntax                                |
 | [Password Policy Discovery](/Poshc2/instructions/Password_policy_discovery.md)                                 | YES    | YES        | KINDS     | Review                                                    |

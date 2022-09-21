@@ -22,6 +22,8 @@ sharpps New-Service -Name "TestProcess" -BinaryPathName "C:\temp\testfile.exe" -
     * Service created
 * Investiage Powershell service install
     * New-Service
+* Look for edits to the registry. Event ID:
+    * 13: Registry value set
 
 ## Resources:
 https://pentestlab.blog/2019/10/07/persistence-new-service/

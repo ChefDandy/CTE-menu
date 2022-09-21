@@ -44,9 +44,9 @@ get # Poshc2 Super Menu
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         |        |            | KINDA     | Detection methods(if possible?)/Review                    |
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               |   YES     |         YES   | YES       |    Reviewed                                                   | 
 | [Login item](instructions/Login_item.md)                                                                       | YES    | YES        | YES     | Reviewed                                   |
-| [Logon script](instructions/Logon_Scripts.md)                                                                  |        |            | KINDA     | Review                                                    |
-| [Modify registry](instructions/Modify_registry.md)                                                             |        |            | KINDA     | Updated detection methods and review syntax               |
-| [Mshta.exe](instructions/MSHTA.MD)                                                                             |        |            | KINDA     | Review                                                    |
+| [Logon script](instructions/Logon_Scripts.md)                                                                  |      YES  |     YES       | YES     | Reviewed                                                    |
+| [Modify registry](instructions/Modify_registry.md)                                                             |        |            | KINDA     | Review syntax               |
+| [Mshta.exe](instructions/MSHTA.MD)                                                                             |      YES  |        YES    | YES     | Reviewed                                                    |
 | [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   |        |            | KINDA     | Updated detection methods/ reviewreview                   |
 | [Network Share Discovery](instructions/Network_share_discovery.md)                                             |        |            | KINDA     | Updated detection method/review                           |
 | [New service / service execution](instructions/New_Service_Server_Execution.md)                                |        |            | NOPE      | Reviewed                                                  |
@@ -65,7 +65,7 @@ get # Poshc2 Super Menu
 | [Redundant access](instructions/Reduntant_access.md)                                                           |        |            | KINDA     | Updated syntax/needs verification                         |
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)                         |        |            | KINDA     | Updated syntax/Detection methods needed?                  |
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   |        |            | KINDA     | Review                                                    |
-| [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             |        |            | KINDA     | Review                                                    |
+| [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             | YES    | YES        | KINDA     | Review                                                    |
 | [Rundll32](instructions/Rundll32.md)                                                                           |    YES    |      YES      | YES     | Reviewed                                                    |
 | [Scripting](instructions/Scripting.md)                                                                         |        |            | NOPE      | Initial import/posh syntax                                |
 | [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                |        |            | KINDA     | Updated syntax/ Review                                    |

@@ -16,7 +16,7 @@ C:\howDidSheGetThere.bat
 > *NOTE*: Feel free to make the .bat file hidden
 
 ```sh
-sharpreg create sharpreg create "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" "UhOh" "C:\howDidSheGetThere.bat" #Create the key and populate its value with the location of the file you uploaded
+sharpreg create "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" "UhOh" "C:\howDidSheGetThere.bat"
 ```
 ## Detections techniques:
 * Investigate file creation in the default windows logon script location in the registry. HKEY_CURRENT_USER\Environment "UserInitMprLogonScript"(checked)

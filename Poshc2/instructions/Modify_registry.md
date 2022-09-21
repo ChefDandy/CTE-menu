@@ -26,7 +26,9 @@ sharpreg delete HKLM\SYSTEM\CurrentControlSet\Services\gupdatem ImagePath
 
 ## Detection Technique:
 * Investigate any reg command. Reg is for registry querying and manipulation
-* Event ID 4657 is made when the registry is modified
+* Event IDs
+    * 13: Registry value set
+    * 4657: Registry is modified
 
 ## Resources
 https://github.com/jnqpblc/SharpReg

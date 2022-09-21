@@ -1,7 +1,5 @@
 # CobaltStrike
 
-
-
 ## **Something I think** 
 
 | Hunt Check List     | Description |

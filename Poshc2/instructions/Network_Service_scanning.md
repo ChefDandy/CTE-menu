@@ -47,3 +47,5 @@ sharpps netstat -ano  ##For local ports of implant
 * event.code:1
 * Process Create (rule: ProcessCreate)
 ---  
+## Resources
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/what-is-mshta-how-can-it-be-used-and-how-to-protect-against-it/

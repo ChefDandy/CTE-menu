@@ -17,7 +17,7 @@
     N
     ```
 
-3. Ensure Windows Defender Live Protection is turned off on the victim machine
+3. Ensure Windows Defender 'Real-time protection' is turned off on the victim machine within the settings
 
 4. On your beacon, add the malicious IP and run:
     ```
@@ -26,7 +26,9 @@
 
 ## Detection Technique:
 * Investigate uses of rundll32 to start non typical processes such as cmd/powershell or to access non typical dlls.
-
+* Kibana:
+    * process.name: powershell.exe
+    * process.parent.name: rundll32.exe
 ---
 
 ## Resource

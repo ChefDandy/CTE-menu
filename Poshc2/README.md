@@ -42,8 +42,8 @@ get # Poshc2 Super Menu
 | [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   |        |            | KINDA     | Detection method/Detect hidden files                      |
 | [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       |        |            | KINDA     | Review                                                    |
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         |        |            | KINDA     | Detection methods(if possible?)/Review                    |
-| [Job Scheduling](instructions/Job_Scheduling.md)                                                               |        |            | YES       |                                                           |
-| [Login item](instructions/Login_item.md)                                                                       | YES    | YES        | KINDA     | Detection method/review                                   |
+| [Job Scheduling](instructions/Job_Scheduling.md)                                                               |   YES     |         YES   | YES       |    Reviewed                                                   | 
+| [Login item](instructions/Login_item.md)                                                                       | YES    | YES        | YES     | Reviewed                                   |
 | [Logon script](instructions/Logon_Scripts.md)                                                                  |        |            | KINDA     | Review                                                    |
 | [Modify registry](instructions/Modify_registry.md)                                                             |        |            | KINDA     | Updated detection methods and review syntax               |
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             |        |            | KINDA     | Review                                                    |
@@ -66,7 +66,7 @@ get # Poshc2 Super Menu
 | [Registry Run Keys / Startup Folder](instructions/Registry_run_keys_startup_folder.md)                         |        |            | KINDA     | Updated syntax/Detection methods needed?                  |
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   |        |            | KINDA     | Review                                                    |
 | [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             |        |            | KINDA     | Review                                                    |
-| [Rundll32](instructions/Rundll32.md)                                                                           |        |            | KINDA     | Review                                                    |
+| [Rundll32](instructions/Rundll32.md)                                                                           |    YES    |      YES      | YES     | Reviewed                                                    |
 | [Scripting](instructions/Scripting.md)                                                                         |        |            | NOPE      | Initial import/posh syntax                                |
 | [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                |        |            | KINDA     | Updated syntax/ Review                                    |
 | [Spearphishing attachment](instructions/Spearfishing_attachment.md)                                            |        |            | NOPE      | Initial import/needs mime type                            |

@@ -30,6 +30,8 @@
 
 
 ## Detection Technique
+* Look at new file made in:
+    * C:\Windows\System32\Tasks
 * Investigate file creation in the default windows task folder - C:\Windows\System32\Tasks folder.
 * Associate logon events (4624) within same time frame as execution of suspicious applications.
 * This would involve two seperate searches, One search to identify process creation (Sysmon event code 1) of the malware and then another search of windows event code 4624 around the same time stamp on the victim workstation.

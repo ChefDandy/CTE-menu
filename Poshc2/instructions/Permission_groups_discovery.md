@@ -17,4 +17,6 @@ Sharpps powershell.exe net localgroup ##View Local groups on Computer
 ## Detection Technique:
 * Monitor for newly constructed processes and/or command-lines for actions that could be taken to gather system and network information
 * Monitor for commands ran in WMI and Powershell related to group enumeration.
-* monitor for net.exe. Kibana "net.exe".
+* Monitor for net.exe. 
+* Kibana can utilize string searches:
+    * "net.exe"

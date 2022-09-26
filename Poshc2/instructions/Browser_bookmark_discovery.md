@@ -6,7 +6,7 @@
 2. If unknown, determine the OS and browsers of the system
 3. Based on the OS and browsers, execute the proper syntax below:
 
-> **Note: The following commands may return no results if there are no bookmarks on the system and may also return results from directories that you may not have a.** 
+> **Note: The following commands may return no results if there are no bookmarks on the system and may also return results from directories that you may not have access to.** 
 ---
 
 ## **Windows**
@@ -18,7 +18,8 @@
     ```powershell
     sharpps Get-Content "C:\Users\<user from results>\AppData\Local\Google\Chrome\User Data\Default\Bookmarks" 
     ```   
-    * Note, you may need to change the user for each bookmark location found. Pay attention to the file location
+    * > Note: You may need to change the user for each bookmark location found. Pay attention to the file location
+    * >*Note*: This powershell command specifies a recursive search of the \Users directory for any file or folder with the name `Bookmarks`. This is how Chrome names its Bookmarks and they are in JSON format.
 * Mozilla(untested)
     ```powershell
      
@@ -65,11 +66,12 @@
 ## **Detection Technique:**
 * Investigate any instances of a user accessing bookmark locations.
 * Investigate use of executed commands and arguments for actions that could be taken to gather browser bookmark information.
-* Search for instances of powershell being ran in the `process.command_line` field to enumerate bookmark locations. For Instance:
-```powershell
-Get-ChildItem -Path C:\Users\ -Filter Bookmarks -Recurse -ErrorAction SilentlyContinue -Force
-```
->*Note*: This powershell command specifies a recursive search of the \Users directory for any file or folder with the name `Bookmarks`. This is how Chrome names its Bookmarks and they are in JSON format.
+* Search for instances of powershell being ran in the `process.command_line` field to enumerate bookmark locations. 
+* Kibana:
+    * process.args: Bookmarks
+    * event.code:1
+    * event.action: Process Create (rule: ProcessCreate)
+
 
 ---
 

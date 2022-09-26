@@ -25,7 +25,7 @@
 | [Alternate Data Streams](/Poshc2/instructions/Alternate_Data_Streams.md)                                       |        |            | YES       | Reviewed                                                  |
 | [Application Window Discovery](instructions/Application_windows_discorvery.md)                                 | YES    | YES        | YES       | Reviewed                                                  |
 | [BITS Jobs](instructions/BITS_Jobs.md)                                                                         | YES    | YES        | YES       | Reviewed                                                  |
-| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       |        |            | KINDA     | Reviewed                                                  |
+| [Browser Bookmark Discovery](instructions/Browser_bookmark_discovery.md)                                       | YES    | YES        | KINDA     | Reviewed                                                  |
 | [Create Account](instructions/Create_account.md)                                                               | YES    | YES        | YES       | Reviewed                                                  |
 | [Credential Dumping](instructions/Credential_Dumping.md)                                                       |        |            | SURE      | Reviewed/DANGER                                           |
 | [Data Destruction](instructions/Data_destruction.md)                                                           | YES    | SOMEWHAT   | YES       | Reviewed                                                  |
@@ -40,7 +40,7 @@
 | [File and Directory Permissions modification](instructions/File_And_Directory_Permissions_Modification.md)     |        |            | KINDA     | Added detection methods/ Review                           |
 | [File Deletion](instructions/File_deletion.md)                                                                 | YES    | NONE       | YES       | Reviewed                                                  |
 | [Hidden Files and Directories](instructions/Hidden_files_and_directories.md)                                   | YES    | NONE       | YES       | Reviewed                                                  |
-| [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       |        |            | KINDA     | Review                                                    |
+| [Image File Execution Options Injection](/Poshc2/instructions/Image_file_execution_options_injection.md)       |   YES     |   YES         | YES     | Review                                                    |
 | [Input Capture](/Poshc2/instructions/Input_capture.md)                                                         | YES    | NONE       | YES       | Reviewed                                                  |
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               | YES    | YES        | YES       | Reviewed                                                  |
 | [Login item](instructions/Login_item.md)                                                                       | YES    | YES        | YES       | Reviewed                                                  |
@@ -49,7 +49,7 @@
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             | YES    | YES        | YES       | Reviewed                                                  |
 | [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   | YES    | YES        | YES       | Reviewed                                                  |
 | [Network Share Discovery](instructions/Network_share_discovery.md)                                             | YES    | YES        | YES       | Reviewed                                                  |
-| [New service / service execution](instructions/New_Service_Server_Execution.md)                                |        |            | NOPE      | Reviewed                                                  |
+| [New service / service execution](instructions/New_Service_Server_Execution.md)                                | YES    | YES        | KINDA     | Reviewed                                                  |
 | [OS Credential Dumping](instructions/Credential_Dumping.md)                                                    |        |            | NOPE      | duplicate of cred dumping                                 |
 | [Options injection](instructions/Options_injection.md)                                                         |        |            | NOPE     | Duplicate of Image_file_execution_options_injection                   |
 | [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         | YES    | YES        | YES       | Reviewed                                                  |
@@ -67,7 +67,7 @@
 | [Regsvr32](/Poshc2/instructions/Regsvr32.md)                                                                   | YES    | YES        | KINDA     | Review                                                    |
 | [Remote Desktop Protocol](instructions/Remote_desktop_protocol.md)                                             | YES    | YES        | KINDA     | Review                                                    |
 | [Rundll32](instructions/Rundll32.md)                                                                           | YES    | YES        | YES       | Reviewed                                                  |
-| [Scripting](instructions/Scripting.md)                                                                         |        |            | NOPE      | Initial import/posh syntax                                |
+| [Scripting](instructions/Scripting.md)                                                                         |    YES    |   YES         |YES      | Reviewed                                |
 | [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                |        |            | KINDA     | Updated syntax/ Review                                    |
 | [Spearphishing attachment](instructions/Spearfishing_attachment.md)                                            |        |            | NOPE      | Initial import/needs mime type                            |
 | [Spearphishing link](instructions/Spearfishing_Link.md)                                                        |        |            | NOPE      | Initial import/ needs verification                        |

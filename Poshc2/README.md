@@ -71,7 +71,7 @@
 | [Services Registry Permissions Weakness](instructions/Service_registry_permissions_weakness.md)                |        |            | KINDA     | Updated syntax/ Review                                    |
 | [Spearphishing attachment](instructions/Spearfishing_attachment.md)                                            |        |            | NOPE      | Initial import/needs mime type                            |
 | [Spearphishing link](instructions/Spearfishing_Link.md)                                                        |        |            | NOPE      | Initial import/ needs verification                        |
-| [System Information Discovery Win](/Poshc2/instructions/System_Information%20_Discovery_Win.md)                |        |            | KINDA    | Review                                   |
+| [System Information Discovery Win](/Poshc2/instructions/System_Information%20_Discovery_Win.md)                |   YES     |    YES        | KINDA    | Review                                   |
 | [System Shutdown/Reboot](instructions/System_shutdown_reboot.md)                                               | YES    | YES        | KINDA     | review                                                    |
 | [System Time Discovery](instructions/System_time_discovery.md)                                                 | YES    | YES        | KINDA     | Review                                                    |
 | [Valid accounts](instructions/Valid_accounts.md)                                                               |        |            | NOPE      | Initial import/needs review                               |

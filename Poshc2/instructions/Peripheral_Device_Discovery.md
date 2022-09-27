@@ -18,6 +18,7 @@ sharpps powershell.exe fsutil fsinfo drives #Gain info on Drives
 ```
 
 ## Detection Methods:
-* Kibana "fsutil" 
-* Kibana "*pnpDevice"
+* Kibana 
+    * "fsutil" 
+    * "*pnpDevice"
 * Monitor for newly executed processes and commands that may attempt to gather information about attached peripheral devices and components connected to a computer system.

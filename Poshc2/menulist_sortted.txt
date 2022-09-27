@@ -1,45 +1,54 @@
+Accessibility Features
+Account Discovery
 Account Manipulation
+Alternate Data Streams
+Application Windows Discovery
 BITS Jobs  
 Browser Bookmark Discovery
 Create Account
 Credential Dumping
-Data Staged
+Data Destruction
 Data from Local System
+Data Staged
 Domain Trust Discovery
 Drive-by Compromise
 Dynamic Data Exchange 
 Exfiltration Over Command and Control Channel
+Exploitation for Privilege Escalation
 File and Directory Discovery
+File and Directory Permissions Modification
+File Deletion
 Hidden Files and Directories
 Image File Execution Options Injection
 Input Capture
-Job Scheduling Win
+Job Scheduling
+Login Items
+Logon Scripts
+Modify registry
+MSHTA 
 Network Service Scanning
-OS Credential Dumping
+Network Share Discovery
+New Servive Server Execution
+Parent PID Spoofing
 Password Policy Discovery
+Path Interception
 Peripheral Device discovery 
 Permission Groups Discovery
-Process Discovery
+Powershell
 Process Discovery
 Process Injection
+Query Registry 
+Redundant Access 
+Registry Run Keys Startup Folder
+Regsvr32 
+Remote Desktop Protocol
 Rundll32
-Spearphishing attachment
+Scripting 
+Service Registry Permissions Weakness
+Spearphishing Attachment
+Spearphishing Link
 System Information Discovery
-System Informatoin Discovery Win
 System Shutdown/Reboot
 System Time Discovery
+Valid Accounts 
 Windows Management Instrumentation
-Windows Managment Instrumentation                      
-login item 
-logon script 
-mshta.exe
-new service / service execution 
-options injection
-path interception 
-powershell
-query registry 
-redundant access 
-regsvr32
-scripting
-spearphishing link 
-valid accounts

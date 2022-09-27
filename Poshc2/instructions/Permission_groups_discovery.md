@@ -7,11 +7,18 @@ Find group and permission settings
 ## Exploit syntax:
 In PoshC2, Run
 ```sh
-sharpps powershell.exe net group /domain ##Enumerate all domain groups
+sharpps powershell.exe net group /domain 
+##Enumerate all domain groups
 
-sharpps powershell.exe net group "Domain Admins" /domain ##Enumerate domain group members
+sharpps powershell.exe -c "net group /domain 'Domain Admins'" ##Enumerate domain group members
 
-Sharpps powershell.exe net localgroup ##View Local groups on Computer
+sharpps powershell.exe -c "net user /domain 'Domain Admins' billy.bob" 
+##View the permissions of a particular domain user
+
+Sharpps powershell.exe net localgroup 
+##View Local groups on Computer
+
+
 
 ```
 ## Detection Technique:
@@ -20,3 +27,4 @@ Sharpps powershell.exe net localgroup ##View Local groups on Computer
 * Monitor for net.exe. 
 * Kibana can utilize string searches:
     * "net.exe"
+    * process.parent.name: net.exe

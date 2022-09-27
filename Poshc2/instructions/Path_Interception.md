@@ -2,7 +2,8 @@
 
 ## Exploit syntax:
 ```sh 
-sharpss “cmd.exe set PATH=<injecting path>;%PATH%” #current path for that command line
+sharpps cmd.exe /c 'set PATH="%PATH%;C:\tmp"' 
+#current path for that command line
 
 #can use setx to change the system eniviroment but command is funky 
 ```
@@ -11,3 +12,6 @@ sharpss “cmd.exe set PATH=<injecting path>;%PATH%” #current path for that co
 * Check the Value of the Path Variable for both User and system level
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
 HKEY_CURRENT_USER\Environment.
+* Kibana:
+    * process.name: cmd.exe
+    * process.command_line: \*PATH\*

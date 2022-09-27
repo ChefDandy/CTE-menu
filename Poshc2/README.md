@@ -45,16 +45,16 @@
 | [Job Scheduling](instructions/Job_Scheduling.md)                                                               | YES    | YES        | YES       | Reviewed                                                  |
 | [Login item](instructions/Login_item.md)                                                                       | YES    | YES        | YES       | Reviewed                                                  |
 | [Logon script](instructions/Logon_Scripts.md)                                                                  | YES    | YES        | YES       | Reviewed                                                  |
-| [Modify registry](instructions/Modify_registry.md)                                                             | YES    | YES        | YES       | Reviewed syntax                                           |
+| [Modify registry](instructions/Modify_registry.md)                                                             | YES    | YES        | YES       | Reviewed                                                  |
 | [Mshta.exe](instructions/MSHTA.MD)                                                                             | YES    | YES        | YES       | Reviewed                                                  |
 | [Network Service Scanning](/Poshc2/instructions/Network_Service_scanning.md)                                   | YES    | YES        | YES       | Reviewed                                                  |
 | [Network Share Discovery](instructions/Network_share_discovery.md)                                             | YES    | YES        | YES       | Reviewed                                                  |
 | [New service / service execution](instructions/New_Service_Server_Execution.md)                                | YES    | YES        | KINDA     | Reviewed                                                  |
 | [Password Policy Discovery](instructions/Password_policy_discovery.md)                                         | YES    | YES        | YES       | Reviewed                                                  |
-| [Path interception](instructions/Path_Interception.md)                                                         | YES       | YES           | YES     | Reviewed                                 |
+| [Path interception](instructions/Path_Interception.md)                                                         | YES    | YES        | YES       | Reviewed                                                  |
 | [Parent PID Spoofing](instructions/Parent_PID_spoofing.md)                                                     | YES    | SOMEWHAT   | KINDA     | Reviewed                                                  |
-| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     | YES       | YES           | YES     | Reviewed                            |
-| [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             | YES       | YES           | YES     | Reviewed                                 |
+| [Peripheral Device discovery](instructions/Peripheral_Device_Discovery.md)                                     | YES    | YES        | YES       | Reviewed                                                  |
+| [Permission Groups Discovery](/Poshc2/instructions/Permission_groups_discovery.md)                             | YES    | YES        | YES       | Reviewed                                                  |
 | [Powershell](instructions/PowerShell.md)                                                                       | YES    | SOMEWHAT   | YES       | Reviewed                                                  |
 | [Process Discovery](instructions/Process_Discovery.md)                                                         | YES    | YES        | KINDA     | Updated detection Method/ needs testing for linux/ review |
 | [Process Injection](instructions/Process_injection.md)                                                         | YES    | YES        | KINDA     | Detection Methods/Review                                  |
@@ -73,7 +73,6 @@
 | [System Time Discovery](instructions/System_time_discovery.md)                                                 | YES    | YES        | KINDA     | Review                                                    |
 | [Valid accounts](instructions/Valid_accounts.md)                                                               |        |            | NOPE      | Initial import/needs review                               |
 | [Windows Management Instrumentation](instructions/Windows_Managment_Instrumentation.md)                        | YES    | YES        | KINDA     | DETECTION ADDED                                           |
-| Paragraph                                                                                                      |        |            | NOPE      | DOG                                                       |
 
 
 ## WIP Menu 

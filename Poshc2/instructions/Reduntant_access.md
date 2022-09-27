@@ -15,7 +15,9 @@
 
 ```powershell
 
-upload-file -source '/var/persistence.exe' -destination 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\TotallyLegit.exe'
+1. upload-file
+2. "../../../../tmp/example.txt" 
+3. 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\TotallyLegit.exe'
 
 ```
 

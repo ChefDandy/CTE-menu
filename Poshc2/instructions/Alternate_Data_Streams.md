@@ -30,9 +30,24 @@ If the alternate datastream is a path to another file to run, you can run it wit
 start-process (get-content <"location of file"> -stream <"name of the datastream">)
 ```
 
+## **Detection techniques**
 
-The resource below also highlights a large selction of Alternate Data Streams which can be used.
+Utilize string searches to determine if a stream was created:
+* process.parent.args: Stream
+* event.code: 1
 
+In order to search for ADS' on a host, you would need to utilize a basic script that looks for files that have more than just $DATA:
+
+```powershell
+#Save as Get-AlternateDataStream.ps1
+#Requires - PS version 5.1
+
+Param([string]$Path = "*.*")
+
+Get-Item -Path $path -stream * | Where-Object {$_.stream -ne ':$DATA'} |
+Select-Object @{Name="Path";Expression = {$_.filename}},
+Stream,@{Name="Size";Expression={$_.length}}
+```
 
 ---
 

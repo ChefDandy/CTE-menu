@@ -7,7 +7,7 @@
 | Accessibility Features                        | [Accessibility Features](https://attack.mitre.org/techniques/T1546/008/)                        |
 | Account Discovery                             | [Account Discovery](https://attack.mitre.org/techniques/T1087/)                                 |
 | Account Manipulation                          | [Account Manipulation](https://attack.mitre.org/techniques/T1098/)                              |
-| Alternate Data Streams                        | [Alternte Data Streams](https://attack.mitre.org/techniques/T1564/004/)                         |
+| Alternate Data Streams                        | [Alternate Data Streams](https://attack.mitre.org/techniques/T1564/004/)                         |
 | Application Windows Discovery                 | [Application Window Discovery](https://attack.mitre.org/techniques/T1010/)                      |
 | BITS Jobs                                     | [BITS Jobs](https://attack.mitre.org/techniques/T1197/)                                         |
 | Browser Bookmark Discovery                    | [Browser Bookmark Discovery](https://attack.mitre.org/techniques/T1217/)                        |

@@ -2,11 +2,11 @@
 
 ## Exploit syntax:
 
-* Example: Send-MailMessage -SmtpServer <smtp server ip> -Port 25 -to <enter email here> -From <enter email here> -Priority High -Subject "enter subject here" -Body "enter body of message here" -Attachment “<absolute path of resume file>” (file can be drag and dropped at the end of the command to autofill file path) OR Email through Outlook and attach malicious file to email
-
-* Excel Example:
-    * Use the SendPhishing powershell scripts as a template for sending emails over powershell
-    * Use the script below and insert it into the macro list of an Excel document.
+* Malicious Macro in Excel Example:
+    
+    1. Use the [SendPhishing](/Poshc2/pslo_scripts/Purple_pslo_scripts/SendPhishingAttachment.ps1) script as a template for sending emails over powershell
+    2. Create an Excel document. Use the script below and insert it into the macro list:
+    
     ```vbscript
     Sub Auto_Open()
 
@@ -18,14 +18,17 @@
 
     End Sub
     ```
-    * Send the phishing email with this attachment. Make sure it's saved as a .xlsm file.
-
-
-## Resource: https://www.slipstick.com/outlook/securetemp-files-folder/
-
-
+    
+    3. Save the Excel document and name it as a .xlsm extension. The file name can be anything.
+    4. Once the file is saved, edit the script to reflect the proper path the Excel document is saved.
+        >*Make any other changes necessary in variables (if required)*
+    5. Run the powershell script from the attacker workstation.
+---
 ## Detection Techniques
 
 * Search for files within the Content.Outlook folder. Potentially look for files created following an email.
     * file.path: *Content.Outlook*
     * Look in the mail log at the MIME type for the file of the email.
+---
+## Resources: 
+https://www.slipstick.com/outlook/securetemp-files-folder/

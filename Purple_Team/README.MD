@@ -1,11 +1,12 @@
 # Purple Team Configurations
 
 
-| Attack Box Interface Files                                  | Description |
-|-------------------------------------------------------------|-------------|
-| [parrot_v1](Resources/vm_config_files/interfaces-parrot-V1) | WIP         |
-| [parrot_v2](Resources/vm_config_files/interfaces-parrot-V2) | WIP         |
-| something                                                   | WIP         |
+| Attack Box Interface Files                                    | Description |
+|---------------------------------------------------------------|-------------|
+| [parrot_v1](Resources/vm_config_files/interfaces-parrot-V1)   | WIP         |
+| [parrot_v2](Resources/vm_config_files/interfaces-parrot-V2)   | WIP         |
+| [Cobalt_kali](Resources/vm_config_files/interfaces-coablt-vm) | WIP         |
+
 > **NOTE:** Need to ensure both 64 and 200 networks are added or machines might not work
 ---
 ## **C2 Domains** 

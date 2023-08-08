@@ -27,7 +27,7 @@
 | [BITS Jobs](menuOptions/Windows/BITS_Jobs.md)                                                                         | YES    | YES        | YES       | Reviewed                                                  |
 | [Browser Bookmark Discovery](menuOptions/Windows/Browser_bookmark_discovery.md)                                       | YES    | YES        | YES       | Reviewed                                                  |
 | [Create Account](menuOptions/Windows/Create_account.md)                                                               | YES    | YES        | YES       | Reviewed                                                  |
-| [Credential Dumping](menuOptions/Windows/Credential_Dumping.md)                                                       |        |            | YES       | Reviewed/DANGER                                           |
+| [Credential Dumping](menuOptions/Windows/Credential_dumping.md)                                                       |        |            | YES       | Reviewed/DANGER                                           |
 | [Data Destruction](menuOptions/Windows/Data_destruction.md)                                                           | YES    | SOMEWHAT   | YES       | Reviewed                                                  |
 | [Data from Local System](menuOptions/Windows/Data_from_local_system.md)                                               | YES    | NONE       | YES       | Reviewed                                                  |
 | [Data Staged](menuOptions/Windows/Data_Staged.md)                                                                     | YES    | SOMEWHAT   | YES       | Reviewed                                                  |
